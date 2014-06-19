@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FdtModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="FdtModelStoreContainer">
+    <EntitySet Name="answer" EntityType="FdtModel.Store.answer" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="baseblock" EntityType="FdtModel.Store.baseblock" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="baseform" EntityType="FdtModel.Store.baseform" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="basequestion" EntityType="FdtModel.Store.basequestion" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="basesubblock" EntityType="FdtModel.Store.basesubblock" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="city" EntityType="FdtModel.Store.city" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="group" EntityType="FdtModel.Store.group" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="group_user" EntityType="FdtModel.Store.group_user" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="period" EntityType="FdtModel.Store.period" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="request_city" EntityType="FdtModel.Store.request_city" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="responseform" EntityType="FdtModel.Store.responseform" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="review" EntityType="FdtModel.Store.review" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="state" EntityType="FdtModel.Store.state" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="submit" EntityType="FdtModel.Store.submit" store:Type="Tables" Schema="fdt" />
+    <EntitySet Name="user" EntityType="FdtModel.Store.user" store:Type="Tables" Schema="fdt" />
+    <AssociationSet Name="FK_Answer_BaseQuestion" Association="FdtModel.Store.FK_Answer_BaseQuestion">
+      <End Role="basequestion" EntitySet="basequestion" />
+      <End Role="answer" EntitySet="answer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Answer_ResponseForm" Association="FdtModel.Store.FK_Answer_ResponseForm">
+      <End Role="responseform" EntitySet="responseform" />
+      <End Role="answer" EntitySet="answer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BaseBlock_BaseForm" Association="FdtModel.Store.FK_BaseBlock_BaseForm">
+      <End Role="baseform" EntitySet="baseform" />
+      <End Role="baseblock" EntitySet="baseblock" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BaseForm_Period" Association="FdtModel.Store.FK_BaseForm_Period">
+      <End Role="period" EntitySet="period" />
+      <End Role="baseform" EntitySet="baseform" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BaseQuestion_BaseSubBlock" Association="FdtModel.Store.FK_BaseQuestion_BaseSubBlock">
+      <End Role="basesubblock" EntitySet="basesubblock" />
+      <End Role="basequestion" EntitySet="basequestion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BaseSubBlock_BaseBlock" Association="FdtModel.Store.FK_BaseSubBlock_BaseBlock">
+      <End Role="baseblock" EntitySet="baseblock" />
+      <End Role="basesubblock" EntitySet="basesubblock" />
+    </AssociationSet>
+    <AssociationSet Name="FK_City_State" Association="FdtModel.Store.FK_City_State">
+      <End Role="state" EntitySet="state" />
+      <End Role="city" EntitySet="city" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Group_City" Association="FdtModel.Store.FK_Group_City">
+      <End Role="city" EntitySet="city" />
+      <End Role="group" EntitySet="group" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Group_Period" Association="FdtModel.Store.FK_Group_Period">
+      <End Role="period" EntitySet="period" />
+      <End Role="group" EntitySet="group" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Group_Responsable" Association="FdtModel.Store.FK_Group_Responsable">
+      <End Role="user" EntitySet="user" />
+      <End Role="group" EntitySet="group" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GroupUser_Group" Association="FdtModel.Store.FK_GroupUser_Group">
+      <End Role="group" EntitySet="group" />
+      <End Role="group_user" EntitySet="group_user" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GroupUser_User" Association="FdtModel.Store.FK_GroupUser_User">
+      <End Role="user" EntitySet="user" />
+      <End Role="group_user" EntitySet="group_user" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ResponseForm_BaseForm" Association="FdtModel.Store.FK_ResponseForm_BaseForm">
+      <End Role="baseform" EntitySet="baseform" />
+      <End Role="responseform" EntitySet="responseform" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ResponseForm_City" Association="FdtModel.Store.FK_ResponseForm_City">
+      <End Role="city" EntitySet="city" />
+      <End Role="responseform" EntitySet="responseform" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ResponseForm_User" Association="FdtModel.Store.FK_ResponseForm_User">
+      <End Role="user" EntitySet="user" />
+      <End Role="responseform" EntitySet="responseform" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Review_ResponseForm" Association="FdtModel.Store.FK_Review_ResponseForm">
+      <End Role="responseform" EntitySet="responseform" />
+      <End Role="review" EntitySet="review" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Review_User" Association="FdtModel.Store.FK_Review_User">
+      <End Role="user" EntitySet="user" />
+      <End Role="review" EntitySet="review" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RQ_CityId" Association="FdtModel.Store.FK_RQ_CityId">
+      <End Role="city" EntitySet="city" />
+      <End Role="request_city" EntitySet="request_city" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RQ_PeriodId" Association="FdtModel.Store.FK_RQ_PeriodId">
+      <End Role="period" EntitySet="period" />
+      <End Role="request_city" EntitySet="request_city" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RQ_UserId" Association="FdtModel.Store.FK_RQ_UserId">
+      <End Role="user" EntitySet="user" />
+      <End Role="request_city" EntitySet="request_city" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Submit_ResponseForm" Association="FdtModel.Store.FK_Submit_ResponseForm">
+      <End Role="responseform" EntitySet="responseform" />
+      <End Role="submit" EntitySet="submit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_City" Association="FdtModel.Store.FK_User_City">
+      <End Role="city" EntitySet="city" />
+      <End Role="user" EntitySet="user" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_User" Association="FdtModel.Store.FK_User_User">
+      <End Role="user" EntitySet="user" />
+      <End Role="user1" EntitySet="user" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="answer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BaseQuestionId" Type="bigint" Nullable="false" />
+    <Property Name="ResponseFormId" Type="bigint" Nullable="false" />
+    <Property Name="Score" Type="decimal" Scale="2" />
+    <Property Name="Observation" Type="mediumtext" />
+  </EntityType>
+  <EntityType Name="baseblock">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BaseFormId" Type="bigint" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="baseform">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PeriodId" Type="bigint" Nullable="false" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="CreationDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="basequestion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BaseSubBlockId" Type="bigint" Nullable="false" />
+    <Property Name="Question" Type="mediumtext" Nullable="false" />
+    <Property Name="Value" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="Index" Type="int" Nullable="false" />
+    <Property Name="Tip" Type="mediumtext" />
+  </EntityType>
+  <EntityType Name="basesubblock">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BaseBlockId" Type="bigint" Nullable="false" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Weight" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="Index" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="city">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StateId" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="group">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CityId" Type="bigint" Nullable="false" />
+    <Property Name="ResponsableId" Type="bigint" />
+    <Property Name="PeriodId" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="group_user">
+    <Key>
+      <PropertyRef Name="GroupId" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="GroupId" Type="bigint" Nullable="false" />
+    <Property Name="UserId" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="period">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="InitialDate" Type="datetime" Nullable="false" />
+    <Property Name="FinalDate" Type="datetime" Nullable="false" />
+    <Property Name="ConvocationInitialDate" Type="datetime" />
+    <Property Name="ConvocationFinalDate" Type="datetime" />
+    <Property Name="Open" Type="bool" Nullable="false" />
+    <Property Name="Published" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="request_city">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CityId" Type="bigint" Nullable="false" />
+    <Property Name="UserId" Type="bigint" Nullable="false" />
+    <Property Name="PeriodId" Type="bigint" Nullable="false" />
+    <Property Name="RequestType" Type="int" Nullable="false" />
+    <Property Name="RequestDate" Type="datetime" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="responseform">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BaseFormId" Type="bigint" Nullable="false" />
+    <Property Name="CityId" Type="bigint" />
+    <Property Name="UserId" Type="bigint" Nullable="false" />
+    <Property Name="TrackingNote" Type="mediumtext" Nullable="false" />
+    <Property Name="TotalScore" Type="decimal" Nullable="false" Scale="2" />
+  </EntityType>
+  <EntityType Name="review">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="bigint" Nullable="false" />
+    <Property Name="ResponseFormId" Type="bigint" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Accepted" Type="bool" Nullable="false" />
+    <Property Name="Observations" Type="mediumtext" />
+  </EntityType>
+  <EntityType Name="state">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="submit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ResponseFormId" Type="bigint" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Observation" Type="mediumtext" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CNPJ" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Organization" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="ContactName" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="ContactEmail" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Nature" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Area" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Range" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Address" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="Number" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Neighborhood" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Region" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="CityId" Type="bigint" />
+    <Property Name="ZipCode" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="Phone" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="WebSite" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="Email" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Login" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Password" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="UserType" Type="int" Nullable="false" />
+    <Property Name="Active" Type="bool" Nullable="false" />
+    <Property Name="Network" Type="bool" Nullable="false" />
+    <Property Name="Thumb" Type="blob" />
+    <Property Name="Mime" Type="varchar" MaxLength="100" />
+    <Property Name="NetworkApproved" Type="bool" Nullable="false" />
+    <Property Name="NetworkApprovedById" Type="bigint" />
+    <Property Name="TermsOfUse" Type="bool" Nullable="false" />
+    <Property Name="AcceptionTermsDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Answer_BaseQuestion">
+    <End Role="basequestion" Type="FdtModel.Store.basequestion" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="answer" Type="FdtModel.Store.answer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="basequestion">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="answer">
+        <PropertyRef Name="BaseQuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Answer_ResponseForm">
+    <End Role="responseform" Type="FdtModel.Store.responseform" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="answer" Type="FdtModel.Store.answer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="responseform">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="answer">
+        <PropertyRef Name="ResponseFormId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BaseBlock_BaseForm">
+    <End Role="baseform" Type="FdtModel.Store.baseform" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="baseblock" Type="FdtModel.Store.baseblock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="baseform">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="baseblock">
+        <PropertyRef Name="BaseFormId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BaseForm_Period">
+    <End Role="period" Type="FdtModel.Store.period" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="baseform" Type="FdtModel.Store.baseform" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="period">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="baseform">
+        <PropertyRef Name="PeriodId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BaseQuestion_BaseSubBlock">
+    <End Role="basesubblock" Type="FdtModel.Store.basesubblock" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="basequestion" Type="FdtModel.Store.basequestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="basesubblock">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="basequestion">
+        <PropertyRef Name="BaseSubBlockId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BaseSubBlock_BaseBlock">
+    <End Role="baseblock" Type="FdtModel.Store.baseblock" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="basesubblock" Type="FdtModel.Store.basesubblock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="baseblock">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="basesubblock">
+        <PropertyRef Name="BaseBlockId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_City_State">
+    <End Role="state" Type="FdtModel.Store.state" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="city" Type="FdtModel.Store.city" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="state">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="city">
+        <PropertyRef Name="StateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Group_City">
+    <End Role="city" Type="FdtModel.Store.city" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="group" Type="FdtModel.Store.group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="city">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="group">
+        <PropertyRef Name="CityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Group_Period">
+    <End Role="period" Type="FdtModel.Store.period" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="group" Type="FdtModel.Store.group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="period">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="group">
+        <PropertyRef Name="PeriodId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Group_Responsable">
+    <End Role="user" Type="FdtModel.Store.user" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="group" Type="FdtModel.Store.group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="group">
+        <PropertyRef Name="ResponsableId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GroupUser_Group">
+    <End Role="group" Type="FdtModel.Store.group" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="group_user" Type="FdtModel.Store.group_user" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="group">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="group_user">
+        <PropertyRef Name="GroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GroupUser_User">
+    <End Role="user" Type="FdtModel.Store.user" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="group_user" Type="FdtModel.Store.group_user" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="group_user">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ResponseForm_BaseForm">
+    <End Role="baseform" Type="FdtModel.Store.baseform" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="responseform" Type="FdtModel.Store.responseform" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="baseform">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="responseform">
+        <PropertyRef Name="BaseFormId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ResponseForm_City">
+    <End Role="city" Type="FdtModel.Store.city" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="responseform" Type="FdtModel.Store.responseform" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="city">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="responseform">
+        <PropertyRef Name="CityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ResponseForm_User">
+    <End Role="user" Type="FdtModel.Store.user" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="responseform" Type="FdtModel.Store.responseform" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="responseform">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Review_ResponseForm">
+    <End Role="responseform" Type="FdtModel.Store.responseform" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="review" Type="FdtModel.Store.review" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="responseform">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="review">
+        <PropertyRef Name="ResponseFormId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Review_User">
+    <End Role="user" Type="FdtModel.Store.user" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="review" Type="FdtModel.Store.review" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="review">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RQ_CityId">
+    <End Role="city" Type="FdtModel.Store.city" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="request_city" Type="FdtModel.Store.request_city" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="city">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="request_city">
+        <PropertyRef Name="CityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RQ_PeriodId">
+    <End Role="period" Type="FdtModel.Store.period" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="request_city" Type="FdtModel.Store.request_city" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="period">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="request_city">
+        <PropertyRef Name="PeriodId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RQ_UserId">
+    <End Role="user" Type="FdtModel.Store.user" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="request_city" Type="FdtModel.Store.request_city" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="request_city">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Submit_ResponseForm">
+    <End Role="responseform" Type="FdtModel.Store.responseform" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="submit" Type="FdtModel.Store.submit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="responseform">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="submit">
+        <PropertyRef Name="ResponseFormId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_City">
+    <End Role="city" Type="FdtModel.Store.city" Multiplicity="0..1" />
+    <End Role="user" Type="FdtModel.Store.user" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="city">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="user">
+        <PropertyRef Name="CityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_User">
+    <End Role="user" Type="FdtModel.Store.user" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="user1" Type="FdtModel.Store.user" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="user1">
+        <PropertyRef Name="NetworkApprovedById" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

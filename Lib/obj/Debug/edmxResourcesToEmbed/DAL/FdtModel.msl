@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FdtModelStoreContainer" CdmEntityContainer="FdtConnection">
+    <EntitySetMapping Name="basequestions">
+      <EntityTypeMapping TypeName="FdtModel.BaseQuestion">
+        <MappingFragment StoreEntitySet="basequestion">
+          <ScalarProperty Name="BaseSubBlockId" ColumnName="BaseSubBlockId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Question" ColumnName="Question" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Index" ColumnName="Index" />
+          <ScalarProperty Name="Tip" ColumnName="Tip" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cities">
+      <EntityTypeMapping TypeName="FdtModel.City">
+        <MappingFragment StoreEntitySet="city">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="periods">
+      <EntityTypeMapping TypeName="FdtModel.Period">
+        <MappingFragment StoreEntitySet="period">
+          <ScalarProperty Name="ConvocationFinalDate" ColumnName="ConvocationFinalDate" />
+          <ScalarProperty Name="ConvocationInitialDate" ColumnName="ConvocationInitialDate" />
+          <ScalarProperty Name="Published" ColumnName="Published" />
+          <ScalarProperty Name="Open" ColumnName="Open" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="InitialDate" ColumnName="InitialDate" />
+          <ScalarProperty Name="FinalDate" ColumnName="FinalDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="states">
+      <EntityTypeMapping TypeName="FdtModel.State">
+        <MappingFragment StoreEntitySet="state">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="submits">
+      <EntityTypeMapping TypeName="FdtModel.Submit">
+        <MappingFragment StoreEntitySet="submit">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ResponseFormId" ColumnName="ResponseFormId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Observation" ColumnName="Observation" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="FdtModel.User">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="ContactEmail" ColumnName="ContactEmail" />
+          <ScalarProperty Name="AcceptionTermsDate" ColumnName="AcceptionTermsDate" />
+          <ScalarProperty Name="TermsOfUse" ColumnName="TermsOfUse" />
+          <ScalarProperty Name="NetworkApprovedById" ColumnName="NetworkApprovedById" />
+          <ScalarProperty Name="NetworkApproved" ColumnName="NetworkApproved" />
+          <ScalarProperty Name="Network" ColumnName="Network" />
+          <ScalarProperty Name="WebSite" ColumnName="WebSite" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Neighborhood" ColumnName="Neighborhood" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Range" ColumnName="Range" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Nature" ColumnName="Nature" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+          <ScalarProperty Name="Organization" ColumnName="Organization" />
+          <ScalarProperty Name="Mime" ColumnName="Mime" />
+          <ScalarProperty Name="Thumb" ColumnName="Thumb" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="baseblock">
+      <EntityTypeMapping TypeName="FdtModel.BaseBlock">
+        <MappingFragment StoreEntitySet="baseblock">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="BaseFormId" ColumnName="BaseFormId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="baseform">
+      <EntityTypeMapping TypeName="FdtModel.BaseForm">
+        <MappingFragment StoreEntitySet="baseform">
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="PeriodId" ColumnName="PeriodId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="basesubblock">
+      <EntityTypeMapping TypeName="FdtModel.BaseSubBlock">
+        <MappingFragment StoreEntitySet="basesubblock">
+          <ScalarProperty Name="Index" ColumnName="Index" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="BaseBlockId" ColumnName="BaseBlockId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Answers1">
+      <EntityTypeMapping TypeName="FdtModel.Answer">
+        <MappingFragment StoreEntitySet="answer">
+          <ScalarProperty Name="Observation" ColumnName="Observation" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="ResponseFormId" ColumnName="ResponseFormId" />
+          <ScalarProperty Name="BaseQuestionId" ColumnName="BaseQuestionId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reviews1">
+      <EntityTypeMapping TypeName="FdtModel.Review">
+        <MappingFragment StoreEntitySet="review">
+          <ScalarProperty Name="Observations" ColumnName="Observations" />
+          <ScalarProperty Name="Accepted" ColumnName="Accepted" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ResponseFormId" ColumnName="ResponseFormId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ResponseForms1">
+      <EntityTypeMapping TypeName="FdtModel.ResponseForm">
+        <MappingFragment StoreEntitySet="responseform">
+          <ScalarProperty Name="TotalScore" ColumnName="TotalScore" />
+          <ScalarProperty Name="TrackingNote" ColumnName="TrackingNote" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="BaseFormId" ColumnName="BaseFormId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequestCities">
+      <EntityTypeMapping TypeName="FdtModel.RequestCity">
+        <MappingFragment StoreEntitySet="request_city">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="RequestDate" ColumnName="RequestDate" />
+          <ScalarProperty Name="RequestType" ColumnName="RequestType" />
+          <ScalarProperty Name="PeriodId" ColumnName="PeriodId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Groups1">
+      <EntityTypeMapping TypeName="FdtModel.Group">
+        <MappingFragment StoreEntitySet="group">
+          <ScalarProperty Name="PeriodId" ColumnName="PeriodId" />
+          <ScalarProperty Name="ResponsableId" ColumnName="ResponsableId" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="group_user" TypeName="FdtModel.group_user" StoreEntitySet="group_user">
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+      <EndProperty Name="group">
+        <ScalarProperty Name="Id" ColumnName="GroupId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

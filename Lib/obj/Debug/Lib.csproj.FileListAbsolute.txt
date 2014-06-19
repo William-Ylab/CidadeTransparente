@@ -1,0 +1,50 @@
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\Lib.dll.config
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\Lib.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\Lib.pdb
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\Commons.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\EntityFramework.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\K2Logger.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\NPOI.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\NPOI.OOXML.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\NPOI.OpenXml4Net.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\NPOI.OpenXmlFormats.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\EntityFramework.xml
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\obj\Debug\Lib.Resources.Messages.resources
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\obj\Debug\Lib.csproj.GenerateResource.Cache
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\obj\Debug\Lib.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\obj\Debug\Lib.pdb
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\Lib.dll.config
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\Lib.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\Lib.pdb
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\EntityFramework.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\MySql.Data.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\NPOI.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\NPOI.OOXML.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\NPOI.OpenXml4Net.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\bin\Debug\EntityFramework.xml
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\obj\Debug\Lib.csprojResolveAssemblyReference.cache
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\obj\Debug\Lib.Resources.Email.resources
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\obj\Debug\Lib.Resources.Messages.resources
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\obj\Debug\Lib.csproj.GenerateResource.Cache
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\obj\Debug\Lib.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Lib\obj\Debug\Lib.pdb
+D:\GitHub\Amarribo\CidadeTransparente\Lib\bin\Debug\Lib.dll.config
+D:\GitHub\Amarribo\CidadeTransparente\Lib\bin\Debug\Lib.dll
+D:\GitHub\Amarribo\CidadeTransparente\Lib\bin\Debug\Lib.pdb
+D:\GitHub\Amarribo\CidadeTransparente\Lib\bin\Debug\EntityFramework.dll
+D:\GitHub\Amarribo\CidadeTransparente\Lib\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\GitHub\Amarribo\CidadeTransparente\Lib\bin\Debug\MySql.Data.dll
+D:\GitHub\Amarribo\CidadeTransparente\Lib\bin\Debug\NPOI.dll
+D:\GitHub\Amarribo\CidadeTransparente\Lib\bin\Debug\NPOI.OOXML.dll
+D:\GitHub\Amarribo\CidadeTransparente\Lib\bin\Debug\NPOI.OpenXml4Net.dll
+D:\GitHub\Amarribo\CidadeTransparente\Lib\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\GitHub\Amarribo\CidadeTransparente\Lib\bin\Debug\EntityFramework.xml
+D:\GitHub\Amarribo\CidadeTransparente\Lib\obj\Debug\Lib.csprojResolveAssemblyReference.cache
+D:\GitHub\Amarribo\CidadeTransparente\Lib\obj\Debug\Lib.Resources.Email.resources
+D:\GitHub\Amarribo\CidadeTransparente\Lib\obj\Debug\Lib.Resources.Messages.resources
+D:\GitHub\Amarribo\CidadeTransparente\Lib\obj\Debug\Lib.csproj.GenerateResource.Cache
+D:\GitHub\Amarribo\CidadeTransparente\Lib\obj\Debug\Lib.dll
+D:\GitHub\Amarribo\CidadeTransparente\Lib\obj\Debug\Lib.pdb

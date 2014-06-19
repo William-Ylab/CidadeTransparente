@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D3761CCF-BC37-4DBD-9234-D2ADEF4C5AD6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ferramenta</RootNamespace>
+    <AssemblyName>Ferramenta</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BundleTransformer.Core">
+      <HintPath>..\packages\BundleTransformer.Core.1.8.17\lib\net40\BundleTransformer.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BundleTransformer.Yui">
+      <HintPath>..\packages\BundleTransformer.Yui.1.8.12\lib\net40\BundleTransformer.Yui.dll</HintPath>
+    </Reference>
+    <Reference Include="EcmaScript.NET">
+      <HintPath>..\packages\EcmaScript.Net.1.0.1.0\lib\net20\EcmaScript.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.2\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Yahoo.Yui.Compressor">
+      <HintPath>..\packages\YUICompressor.NET.2.3.0.0\lib\NET20\Yahoo.Yui.Compressor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="City\ManageCities.aspx" />
+    <Content Include="City\NewCity.aspx" />
+    <Content Include="City\RequestCities.aspx" />
+    <Content Include="Dashboard.aspx" />
+    <Content Include="Design\favicon.ico" />
+    <Content Include="Design\Images\Datatables\sort_asc.png" />
+    <Content Include="Design\Images\Datatables\sort_asc_disabled.png" />
+    <Content Include="Design\Images\Datatables\sort_both.png" />
+    <Content Include="Design\Images\Datatables\sort_desc.png" />
+    <Content Include="Design\Images\Datatables\sort_desc_disabled.png" />
+    <Content Include="Design\Images\loading.gif" />
+    <Content Include="Design\Images\logo-amarribo.png" />
+    <Content Include="Design\Images\Markitup\bold.png" />
+    <Content Include="Design\Images\Markitup\italic.png" />
+    <Content Include="Design\Images\Markitup\underline.png" />
+    <Content Include="Design\Images\noavatar.png" />
+    <Content Include="Design\Images\Uniform\bg-input-focus.png" />
+    <Content Include="Design\Images\Uniform\bg-input.png" />
+    <Content Include="Design\Images\Uniform\sprite.png" />
+    <Content Include="Design\Styles\bootstrap-tagsinput.css" />
+    <Content Include="Design\Styles\Bootstrap\bootstrap-responsive.css" />
+    <Content Include="Design\Styles\DatePicker\datepicker.css" />
+    <Content Include="Design\Styles\DatePicker\daterangepicker.css" />
+    <Content Include="Design\Styles\jquery-toggle-buttons.css" />
+    <Content Include="Design\Styles\Bootstrap\bootstrap.css" />
+    <Content Include="Design\Styles\Bootstrap\proggress.css" />
+    <Content Include="Design\Styles\Bootstrap\uniform.default.css" />
+    <Content Include="Design\Styles\Calendar\fullcalendar.css" />
+    <Content Include="Design\Styles\Datatables\DT_bootstrap.css" />
+    <Content Include="Design\Styles\Datatables\responsive-tables.css" />
+    <Content Include="Design\Styles\login.css" />
+    <Content Include="Design\Styles\style_6in1.css" />
+    <Content Include="Design\Styles\jquery-hint.css" />
+    <Content Include="Design\Styles\style.css" />
+    <Content Include="Design\Styles\TEditor\jquery-te.png" />
+    <Content Include="Design\Styles\TEditor\style.css" />
+    <Content Include="Design\Styles\Validate\validationEngine.jquery.css" />
+    <Content Include="Design\Styles\yl-modal.css" />
+    <Content Include="Form\ListResponseForm.aspx" />
+    <Content Include="Form\ManageBaseForm.aspx" />
+    <Content Include="Form\NewBaseForm.aspx" />
+    <Content Include="Form\View.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="PageError.aspx" />
+    <Content Include="PageForbidden.aspx" />
+    <Content Include="PageNotFound.aspx" />
+    <Content Include="Period\List.aspx" />
+    <Content Include="Period\NewPeriod.aspx" />
+    <Content Include="Scripts\bootstrap-tagsinput.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap-inputmask.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap.js" />
+    <Content Include="Scripts\DatePicker\jquery-datepicker.js" />
+    <Content Include="Scripts\jquery.cookie.js" />
+    <Content Include="Scripts\jquery.toggle.buttons.js" />
+    <Content Include="Scripts\jquery.uniform.js" />
+    <Content Include="Scripts\Bootstrap\main.js" />
+    <Content Include="Scripts\Calendar\fullcalendar.js" />
+    <Content Include="Scripts\Datatables\DT_bootstrap.js" />
+    <Content Include="Scripts\Datatables\jquery.dataTables.js" />
+    <Content Include="Scripts\Datatables\jquery.tablesorter.min.js" />
+    <Content Include="Scripts\Datatables\responsive-tables.js" />
+    <Content Include="Scripts\Flot\excanvas.js" />
+    <Content Include="Scripts\Flot\jquery.colorhelpers.js" />
+    <Content Include="Scripts\Flot\jquery.easy-pie-chart.js" />
+    <Content Include="Scripts\Flot\jquery.flot.crosshair.js" />
+    <Content Include="Scripts\Flot\jquery.flot.fillbetween.js" />
+    <Content Include="Scripts\Flot\jquery.flot.image.js" />
+    <Content Include="Scripts\Flot\jquery.flot.js" />
+    <Content Include="Scripts\Flot\jquery.flot.navigate.js" />
+    <Content Include="Scripts\Flot\jquery.flot.pie.js" />
+    <Content Include="Scripts\Flot\jquery.flot.resize.js" />
+    <Content Include="Scripts\Flot\jquery.flot.selection.js" />
+    <Content Include="Scripts\Flot\jquery.flot.stack.js" />
+    <Content Include="Scripts\Flot\jquery.flot.symbol.js" />
+    <Content Include="Scripts\Flot\jquery.flot.threshold.js" />
+    <Content Include="Scripts\Flot\jquery.sparkline.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-hint.js" />
+    <Content Include="Scripts\jquery-json-2.4.js" />
+    <Content Include="Scripts\jquery-meiomask.js" />
+    <Content Include="Scripts\jquery-migrate-1.1.1.min.js" />
+    <Content Include="Scripts\Validate\jquery.validate.js" />
+    <Content Include="Scripts\Validate\jquery.validationEngine-pt_BR.js" />
+    <Content Include="Scripts\Validate\jquery.validationEngine.js" />
+    <Content Include="Scripts\TEditor\jquery-te-1.4.0.js" />
+    <Content Include="Scripts\jquery-tmpl.js" />
+    <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\Markitup\jquery.markitup.js" />
+    <Content Include="Scripts\Markitup\settings.js" />
+    <Content Include="Scripts\yl-editable.js" />
+    <Content Include="Scripts\yl-modal.js" />
+    <Content Include="User\ManageUsers.aspx" />
+    <Content Include="User\NewUser.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\BaseHttpHandler.cs" />
+    <Compile Include="App_Code\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\BundleConfig.cs" />
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Label.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Label.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Message.Designer.cs">
+      <DependentUpon>Message.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="City\ManageCities.aspx.cs">
+      <DependentUpon>ManageCities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="City\ManageCities.aspx.designer.cs">
+      <DependentUpon>ManageCities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="City\NewCity.aspx.cs">
+      <DependentUpon>NewCity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="City\NewCity.aspx.designer.cs">
+      <DependentUpon>NewCity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="City\RequestCities.aspx.cs">
+      <DependentUpon>RequestCities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="City\RequestCities.aspx.designer.cs">
+      <DependentUpon>RequestCities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ListResponseForm.aspx.cs">
+      <DependentUpon>ListResponseForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\ListResponseForm.aspx.designer.cs">
+      <DependentUpon>ListResponseForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ManageBaseForm.aspx.cs">
+      <DependentUpon>ManageBaseForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\ManageBaseForm.aspx.designer.cs">
+      <DependentUpon>ManageBaseForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\NewBaseForm.aspx.cs">
+      <DependentUpon>NewBaseForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\NewBaseForm.aspx.designer.cs">
+      <DependentUpon>NewBaseForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\View.aspx.cs">
+      <DependentUpon>View.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\View.aspx.designer.cs">
+      <DependentUpon>View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\BaseForm\Action.ashx.cs">
+      <DependentUpon>Action.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\GroupCities\ApproveRequest.ashx.cs">
+      <DependentUpon>ApproveRequest.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\GroupCities\GetAll.ashx.cs">
+      <DependentUpon>GetAll.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\GroupCities\GetRequests.ashx.cs">
+      <DependentUpon>GetRequests.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Period\Action.ashx.cs">
+      <DependentUpon>Action.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Period\GetAll.ashx.cs">
+      <DependentUpon>GetAll.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\ResponseForm\Action.ashx.cs">
+      <DependentUpon>Action.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\User\GetAll.ashx.cs">
+      <DependentUpon>GetAll.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\ResponseForm\GetAll.ashx.cs">
+      <DependentUpon>GetAll.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageError.aspx.cs">
+      <DependentUpon>PageError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageError.aspx.designer.cs">
+      <DependentUpon>PageError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageForbidden.aspx.cs">
+      <DependentUpon>PageForbidden.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageForbidden.aspx.designer.cs">
+      <DependentUpon>PageForbidden.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageNotFound.aspx.cs">
+      <DependentUpon>PageNotFound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageNotFound.aspx.designer.cs">
+      <DependentUpon>PageNotFound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Period\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Period\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Period\NewPeriod.aspx.cs">
+      <DependentUpon>NewPeriod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Period\NewPeriod.aspx.designer.cs">
+      <DependentUpon>NewPeriod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\ManageUsers.aspx.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ManageUsers.aspx.designer.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\NewUser.aspx.cs">
+      <DependentUpon>NewUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\NewUser.aspx.designer.cs">
+      <DependentUpon>NewUser.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin.Master" />
+    <None Include="BundleTransformer.Configuration.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Handlers\BaseForm\Action.ashx" />
+    <Content Include="packages.config" />
+    <Content Include="Handlers\ResponseForm\GetAll.ashx" />
+    <Content Include="Handlers\User\GetAll.ashx" />
+    <Content Include="Handlers\ResponseForm\Action.ashx" />
+    <Content Include="Handlers\Period\GetAll.ashx" />
+    <Content Include="Handlers\Period\Action.ashx" />
+    <Content Include="Handlers\GroupCities\GetAll.ashx" />
+    <Content Include="Handlers\GroupCities\GetRequests.ashx" />
+    <Content Include="Handlers\GroupCities\ApproveRequest.ashx" />
+    <None Include="Properties\PublishProfiles\FERRAMENTA - PUBLISH ATILA %28NAO MUDAR%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Niko.pubxml" />
+    <None Include="Properties\PublishProfiles\Publish Ferramenta FDT.pubxml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <None Include="Properties\PublishProfiles\SITE PUBLISH ATILA %28NAO MUDAR%29.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Message.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Message.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lib\Lib.csproj">
+      <Project>{b68223af-3650-4f38-82c2-682e5f374e44}</Project>
+      <Name>Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Label.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Label.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Design\Images\Pattern\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>13613</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:7615/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

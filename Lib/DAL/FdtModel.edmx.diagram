@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="34a882df78f94e768bf9a96eef1d77e9" Name="Diagram1" ZoomLevel="108">
+        <EntityTypeShape EntityType="FdtModel.BaseQuestion" PointX="17.125" PointY="7" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FdtModel.City" PointX="2.375" PointY="0.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FdtModel.Period" PointX="10" PointY="3.25" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FdtModel.State" PointX="0.5" PointY="0.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FdtModel.Submit" PointX="4.375" PointY="7" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FdtModel.User" PointX="7.625" PointY="0.5" Width="1.5" IsExpanded="true" />
+        <AssociationConnector ManuallyRouted="false" Association="FdtModel.FK_City_State" />
+        <EntityTypeShape EntityType="FdtModel.BaseBlock" PointX="14.625" PointY="3.375" Width="1.5" />
+        <EntityTypeShape EntityType="FdtModel.BaseForm" PointX="12.25" PointY="3.25" Width="1.5" />
+        <EntityTypeShape EntityType="FdtModel.BaseSubBlock" PointX="17.125" PointY="3.375" Width="1.5" />
+        <AssociationConnector Association="FdtModel.FK_BaseBlock_BaseForm" />
+        <AssociationConnector Association="FdtModel.FK_BaseSubBlock_BaseBlock" />
+        <AssociationConnector ManuallyRouted="false" Association="FdtModel.FK_BaseForm_Period">
+        </AssociationConnector>
+        <AssociationConnector Association="FdtModel.FK_BaseQuestion_BaseSubBlock" />
+        <EntityTypeShape EntityType="FdtModel.Answer" PointX="14.375" PointY="7.25" Width="1.5" />
+        <AssociationConnector Association="FdtModel.FK_Answer_BaseQuestion" />
+        <EntityTypeShape EntityType="FdtModel.Review" Width="1.5" PointX="7.75" PointY="10.25" />
+        <AssociationConnector Association="FdtModel.FK_Review_User" />
+        <EntityTypeShape EntityType="FdtModel.ResponseForm" Width="1.5" PointX="11.875" PointY="6.25" />
+        <AssociationConnector Association="FdtModel.FK_Answer_ResponseForm" />
+        <AssociationConnector Association="FdtModel.FK_ResponseForm_BaseForm" />
+        <AssociationConnector Association="FdtModel.FK_ResponseForm_City" />
+        <AssociationConnector Association="FdtModel.FK_ResponseForm_User" />
+        <AssociationConnector Association="FdtModel.FK_Review_ResponseForm" />
+        <AssociationConnector Association="FdtModel.FK_Submit_ResponseForm" />
+        <AssociationConnector Association="FdtModel.FK_User_City" />
+        <AssociationConnector Association="FdtModel.FK_User_User" />
+        <EntityTypeShape EntityType="FdtModel.RequestCity" Width="1.5" PointX="2.75" PointY="10.75" />
+        <AssociationConnector Association="FdtModel.FK_RQ_CityId" />
+        <AssociationConnector Association="FdtModel.FK_RQ_PeriodId" />
+        <AssociationConnector Association="FdtModel.FK_RQ_UserId" />
+        <EntityTypeShape EntityType="FdtModel.Group" Width="1.5" PointX="4.75" PointY="0.5" />
+        <AssociationConnector Association="FdtModel.FK_Group_City" />
+        <AssociationConnector Association="FdtModel.FK_Group_Period" />
+        <AssociationConnector Association="FdtModel.FK_Group_Responsable" />
+        <AssociationConnector Association="FdtModel.group_user" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

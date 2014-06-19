@@ -1,0 +1,24 @@
+﻿/* O z-index do div#yl_modal_bg deve ser menor que do div#yl_modal e do div.window */
+#yl_modal_bg
+{
+	position: absolute;
+	z-index: 9000;
+	background-color: #000;
+	display: none;
+}
+ 
+#yl_modal .yl-modal-window
+{
+	position: absolute;
+	display: none;
+	z-index: 9999;
+	padding: 20px;
+	background-color: #EAEAEA;
+}
+ 
+#yl_modal .yl-modal-close
+{
+	font-size: 14px;
+	display: block;
+	text-align: right;
+}

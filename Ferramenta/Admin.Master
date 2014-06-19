@@ -1,0 +1,289 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Ferramenta.Admin" %>
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js lt-ie9 lt-ie8 lt-ie7">   <![endif]-->
+<!--[if IE 7]>          <html class="no-js lt-ie9 lt-ie8">          <![endif]-->
+<!--[if IE 8]>          <html class="no-js lt-ie9">                 <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head id="Head1" runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Área administrativa</title>
+    <meta name="description" content="Bizstrap: Bootstrap Responsive Admin Theme">
+    <meta name="viewport" content="width=device-width">
+    <!--Stylesheet-->
+    <link href="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Design/Styles/base") %>" rel="Stylesheet" type="text/css" />
+    <link href="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Design/Styles/Bootstrap/bootstrap") %>" rel="Stylesheet" type="text/css" />
+    <link href="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Design/Styles/Calendar/calendar") %>" rel="Stylesheet" type="text/css" />
+    <link href="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Design/Styles/Datatables/datatables") %>" rel="Stylesheet" type="text/css" />
+    <link href="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Design/Styles/plugins") %>" rel="Stylesheet" type="text/css" />
+    <link href="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Design/Styles/Validate/validate") %>" rel="Stylesheet" type="text/css" />
+    <link href="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Design/Styles/DatePicker/datepicker") %>" rel="Stylesheet" type="text/css" />
+
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/jquery") %>" type="text/javascript"></script>
+    <script src="<%= ResolveClientUrl("~/Scripts/jquery-migrate-1.1.1.min.js") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/jqueryui") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/base") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/plugins") %>" type="text/javascript"></script>
+
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/Bootstrap/bootstrap") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/Calendar/calendar") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/Datatables/datatables") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/Flot/flot") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/Markitup/editor") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/Validate/validate") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/DatePicker/datepicker") %>" type="text/javascript"></script>
+
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+        <link rel="shortcut icon" href="Design/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="Design/favicon.ico" type="image/x-icon" />
+
+    <script type="text/ecmascript">
+        $(document).ready(function () {
+            $("#form1").validationEngine();
+            $('.uniform').uniform();
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="admin">
+    <div id="master_alert" class="alert" style="display: none">
+        <h4></h4>
+    </div>
+    <div id="over">
+        <div id="out_container">
+            <!-- #wrap -->
+            <div id="wrap">
+                <!-- BEGIN TOP BAR -->
+                <div id="top">
+                    <!-- .navbar -->
+                    <div class="navbar navbar-inverse navbar-static-top">
+                        <div class="navbar-inner">
+                            <div class="container-fluid">
+                                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </a>
+                                <a class="brand" href="#"><asp:Literal ID="Literal44" Text='<%$Resources: Label, transparency_tool %>' runat="server" /></a>
+                                <!-- .topnav -->
+                                <div class="btn-toolbar topnav">
+                                    <div class="btn-group">
+                                        <a id="changeSidebarPos" class="btn btn-success" rel="tooltip"
+                                            data-original-title="Show / Hide Sidebar" data-placement="bottom">
+                                            <i class="fa fa-arrows-h"></i>
+                                        </a>
+                                    </div>
+                                    <%--<div class="btn-group" id="top_btn_group">
+                                        <a class="btn btn-inverse" rel="tooltip" data-original-title="E-mail" data-placement="bottom">
+                                            <i class="fa fa-envelope"></i>
+                                            <span class="label label-warning">5</span>
+                                        </a>
+                                        <a class="btn btn-inverse" rel="tooltip" href="#" data-original-title="Messages"
+                                            data-placement="bottom">
+                                            <i class="fa fa-comments"></i>
+                                            <span class="label label-important">4</span>
+                                        </a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a class="btn btn-inverse" rel="tooltip" href="#" data-original-title="Document"
+                                            data-placement="bottom">
+                                            <i class="fa fa-file"></i>
+                                        </a>
+                                        <a href="#helpModal" class="btn btn-inverse" rel="tooltip" data-placement="bottom"
+                                            data-original-title="Help" data-toggle="modal">
+                                            <i class="fa fa-question"></i>
+                                        </a>
+                                    </div>--%>
+                                    <div class="btn-group">
+                                        <a class="btn btn-inverse" data-placement="bottom" data-original-title="Sair" rel="tooltip"
+                                            href='<%= ResolveClientUrl("~/Logout.aspx") %>'><i class="fa fa-power-off"></i></a>
+                                    </div>
+                                </div>
+                                <!-- /.topnav -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.navbar -->
+                </div>
+                <!-- END TOP BAR -->
+
+
+                <!-- BEGIN HEADER.head -->
+                <header class="head">
+                    <div class="search-bar">
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <div class="search-bar-inner">
+                                    <a id="menu-toggle" href="#menu" data-toggle="collapse"
+                                        class="accordion-toggle btn btn-inverse visible-phone"
+                                        rel="tooltip" data-placement="bottom" data-original-title="Show/Hide Menu">
+                                        <i class="fa fa-sort"></i>
+                                    </a>
+                                    <%-- <form class="main-search">
+                                        <input class="input-block-level" type="text" placeholder="Live search...">
+                                        <button id="searchBtn" type="submit" class="btn btn-inverse">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </form>--%>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- ."main-bar -->
+                    <div class="main-bar">
+                        <div class="container-fluid">
+                            <div class="row-fluid">
+                                <div class="span12">
+                                    <h3><i class='<%=this.PageIcon %>'></i><%= this.PageTitle %></h3>
+                                </div>
+                            </div>
+                            <!-- /.row-fluid -->
+                        </div>
+                        <!-- /.container-fluid -->
+                    </div>
+                    <!-- /.main-bar -->
+                </header>
+                <!-- END HEADER.head -->
+
+                <!-- BEGIN LEFT  -->
+                <div id="left">
+                    <!-- .user-media -->
+                    <asp:PlaceHolder ID="phUserInfo" runat="server">
+                        <div class="media user-media hidden-phone">
+                            <a href="" class="user-link">
+                                <asp:Image ID="imgUser" ImageUrl="~/Design/Images/noavatar.png" CssClass="media-object img-polaroid user-img" runat="server" />
+                            </a>
+                            <div class="media-body hidden-tablet">
+                                <h5 class="media-heading">
+                                    <asp:Literal runat="server" ID="ltUserName"></asp:Literal></h5>
+                                <ul class="unstyled user-info">
+                                    <li>
+                                        <asp:Literal ID="ltUserType" runat="server" /></li>
+                                    <li><a id="lkEditProfile" runat="server" href="#">[<asp:Literal ID="Literal1" Text='<%$Resources: Label, edit_profile %>' runat="server" />]</a></li>
+                                    <li><a href='<%= ResolveClientUrl("~/Logout.aspx") %>'>[<asp:Literal ID="Literal2" Text='<%$Resources: Label, exit %>' runat="server" />]</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </asp:PlaceHolder>
+                    <!-- /.user-media -->
+
+                    <!-- BEGIN MAIN NAVIGATION -->
+                    <ul id="menu" class="unstyled accordion collapse in">
+                        <%--<li id="menu_dashboard"><a href="<%= ResolveClientUrl("~/Dashboard.aspx") %>"><i class="fa fa-tachometer"></i>&nbsp;Painel</a></li>--%>
+                        <%--<li id="menu_manage_period"><a href="#"><i class="fa fa-calendar"></i>&nbsp;Controle de períodos</a></li>--%>
+                        <li id="menu_manage_baseform" class="accordion-group ">
+                            <a data-parent="#menu" data-toggle="collapse" class="accordion-toggle" data-target="#questionform-nav">
+                                <i class="fa fa-fw fa-tasks"></i><asp:Literal ID="Literal3" Text='<%$Resources: Label, form %>' runat="server" /> <span class="label label-inverse pull-right">1</span>
+                            </a>
+                            <ul class="collapse " id="questionform-nav">
+                                <%--<li><a href="<%= ResolveClientUrl("~/Form/NewBaseForm.aspx") %>"><i class="fa fa-angle-right"></i>&nbsp;Criar novo</a></li>--%>
+                                <li><a href="<%= ResolveClientUrl("~/Form/ManageBaseForm.aspx") %>"><i class="fa fa-fw fa-angle-right"></i><asp:Literal ID="Literal4" Text='<%$Resources: Label, manage_form %>' runat="server" /></a></li>
+                            </ul>
+                        </li>
+                        <li id="menu_manage_users" class="accordion-group ">
+                            <a data-parent="#menu" data-toggle="collapse" class="accordion-toggle" data-target="#users">
+                                <i class="fa fa-fw fa-users"></i>Gestão de Usuários <span class="label label-inverse pull-right">4</span>
+                            </a>
+                            <ul class="collapse " id="users">
+                                <li><a href="<%= ResolveClientUrl("~/User/NewUser.aspx") %>"><i class="fa fa-fw fa-angle-right"></i><asp:Literal ID="Literal5" Text='<%$Resources: Label, new_user %>' runat="server" /></a></li>
+                                <li><a href="<%= ResolveClientUrl("~/User/ManageUsers.aspx?ut=admin,master") %>"><i class="fa fa-fw fa-angle-right"></i><asp:Literal ID="Literal6" Text='<%$Resources: Label, managers %>' runat="server" /></a></li>
+                                <li><a href="<%= ResolveClientUrl("~/User/ManageUsers.aspx?ut=entity") %>"><i class="fa fa-fw fa-angle-right"></i><asp:Literal ID="Literal7" Text='<%$Resources: Label, entities %>' runat="server" /></a></li>
+                                <li><a href="<%= ResolveClientUrl("~/User/ManageUsers.aspx?ut=common") %>"><i class="fa fa-fw fa-angle-right"></i><asp:Literal ID="Literal8" Text='<%$Resources: Label, common_users %>' runat="server" /></a></li>
+                            </ul>
+                        </li>
+                        <li id="menu_manage_cities" class="accordion-group ">
+                            <a data-parent="#menu" data-toggle="collapse" class="accordion-toggle" data-target="#cities">
+                                <i class="fa fa-fw fa-globe"></i><asp:Literal ID="Literal18" Text='<%$Resources: Label, cities %>' runat="server" /> <span class="label label-inverse pull-right">2</span>
+                            </a>
+                            <ul class="collapse " id="cities">
+                                <li><a href="<%= ResolveClientUrl("~/City/NewCity.aspx") %>"><i class="fa fa-fw fa-angle-right"></i><asp:Literal ID="Literal14" Text='<%$Resources: Label, new_city %>' runat="server" /></a></li>
+                                <li><a href="<%= ResolveClientUrl("~/City/ManageCities.aspx") %>"><i class="fa fa-fw fa-angle-right"></i><asp:Literal ID="Literal15" Text='<%$Resources: Label, manage_city %>' runat="server" /></a></li>
+                            </ul>
+                        </li>
+                        <asp:PlaceHolder ID="phPeriodManagerMenu" runat="server" Visible="false">
+                            <li id="menu_period_manage" class="accordion-group">
+                                <a data-parent="#menu" data-toggle="collapse" class="accordion-toggle" data-target="#periodManageform-nav">
+                                    <i class="fa fa-fw fa-calendar"></i><asp:Literal ID="Literal9" Text='<%$Resources: Label, manage_periods %>' runat="server" /><span class="label label-inverse pull-right">2</span>
+                                </a>
+                                <ul class="collapse " id="periodManageform-nav">
+                                    <li><a href="<%= ResolveClientUrl("~/Period/NewPeriod.aspx") %>"><i class="fa fa-fw fa-angle-right"></i><asp:Literal ID="Literal10" Text='<%$Resources: Label, new_period %>' runat="server" /></a></li>
+                                    <li><a href="<%= ResolveClientUrl("~/Period/List.aspx") %>"><i class="fa fa-fw fa-angle-right"></i><asp:Literal ID="Literal11" Text='<%$Resources: Label, period_list %>' runat="server" /></a></li>
+                                </ul>
+                            </li>
+                        </asp:PlaceHolder>
+                        <asp:PlaceHolder ID="phPeriodOpen" runat="server">
+                            <li id="menu_period" class="accordion-group ">
+                                <a data-parent="#menu" data-toggle="collapse" class="accordion-toggle" data-target="#periodform-nav">
+                                    <i class="fa fa-fw fa-calendar"></i><asp:Literal ID="menu_period_period" runat="server"></asp:Literal><span class="label label-inverse pull-right">1</span>
+                                </a>
+                                <ul class="collapse " id="periodform-nav">
+                                    <li>
+                                        <asp:HyperLink ID="linkToOpenForms" runat="server"><i class="fa fa-fw fa-angle-right"></i><asp:Literal ID="Literal12" Text='<%$Resources: Label, form_reviews %>' runat="server" /></asp:HyperLink>
+                                        <asp:HyperLink ID="linkToRequestCities" runat="server"><i class="fa fa-fw fa-angle-right"></i><asp:Literal ID="Literal16" Text='<%$Resources: Label, request_cities %>' runat="server" /></asp:HyperLink>
+                                    </li>
+                                </ul>
+                            </li>
+                        </asp:PlaceHolder>
+                    </ul>
+                </div>
+                <div id="content">
+                    <form id="form1" runat="server">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </form>
+                </div>
+                <!-- END CONTENT -->
+                <!-- #push do not remove -->
+                <div id="push"></div>
+                <!-- /#push -->
+            </div>
+            <!-- END WRAP -->
+
+            <div class="clearfix"></div>
+
+            <!-- BEGIN FOOTER -->
+            <div id="footer">
+                <p><asp:Literal ID="Literal13" Text='<%$Resources: Label, develop_by %>' runat="server" />&nbsp;<a href="http://www.yellowlab.com.br">Yellow Lab</a>. Copyright 2014.</p>
+            </div>
+            <!-- END FOOTER -->
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        setCurrentMenu();
+        function setCurrentMenu() {
+            $('#menu li').removeClass('active');
+            $('#menu li a.accordion-toggle').addClass('collapsed');
+
+            $('#<%= this.ActiveMenuId %>').addClass('active');
+
+            if ($('#<%= this.ActiveMenuId %>').hasClass('accordion-group')) {
+                $('#<%= this.ActiveMenuId %> a').removeClass('collapsed');
+                $('#<%= this.ActiveMenuId %> ul').removeClass('collapse').addClass('in collapse');
+            }
+        }
+
+        $('#changeSidebarPos').on('click', function (e) {
+            $('body').toggleClass('hide-sidebar');
+        });
+
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-47722754-2', 'governotransparente.org.br');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>

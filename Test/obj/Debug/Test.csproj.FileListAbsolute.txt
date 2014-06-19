@@ -1,0 +1,49 @@
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\Test.dll.config
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\Test.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\Test.pdb
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\Lib.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\EntityFramework.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\Commons.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\NPOI.OOXML.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\NPOI.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\K2Logger.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\NPOI.OpenXmlFormats.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\NPOI.OpenXml4Net.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\Lib.pdb
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\EntityFramework.xml
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\obj\Debug\Test.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\obj\Debug\Test.pdb
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\Test.dll.config
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\Test.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\Test.pdb
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\Lib.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\EntityFramework.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\MySql.Data.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\NPOI.OOXML.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\NPOI.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\NPOI.OpenXml4Net.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\Lib.pdb
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\bin\Debug\EntityFramework.xml
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\obj\Debug\Test.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Test\obj\Debug\Test.pdb
+D:\GitHub\Amarribo\CidadeTransparente\Test\bin\Debug\Test.dll.config
+D:\GitHub\Amarribo\CidadeTransparente\Test\bin\Debug\Test.dll
+D:\GitHub\Amarribo\CidadeTransparente\Test\bin\Debug\Test.pdb
+D:\GitHub\Amarribo\CidadeTransparente\Test\bin\Debug\Lib.dll
+D:\GitHub\Amarribo\CidadeTransparente\Test\bin\Debug\EntityFramework.dll
+D:\GitHub\Amarribo\CidadeTransparente\Test\bin\Debug\MySql.Data.dll
+D:\GitHub\Amarribo\CidadeTransparente\Test\bin\Debug\NPOI.OOXML.dll
+D:\GitHub\Amarribo\CidadeTransparente\Test\bin\Debug\NPOI.dll
+D:\GitHub\Amarribo\CidadeTransparente\Test\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\GitHub\Amarribo\CidadeTransparente\Test\bin\Debug\NPOI.OpenXml4Net.dll
+D:\GitHub\Amarribo\CidadeTransparente\Test\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\GitHub\Amarribo\CidadeTransparente\Test\bin\Debug\Lib.pdb
+D:\GitHub\Amarribo\CidadeTransparente\Test\bin\Debug\EntityFramework.xml
+D:\GitHub\Amarribo\CidadeTransparente\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\GitHub\Amarribo\CidadeTransparente\Test\obj\Debug\Test.dll
+D:\GitHub\Amarribo\CidadeTransparente\Test\obj\Debug\Test.pdb

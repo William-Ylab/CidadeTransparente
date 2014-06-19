@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Pivetz\Desktop\Deploy\Amarribo\Site</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Account/Login.aspx">
+      <publishTime>04/25/2014 23:25:36</publishTime>
+    </File>
+    <File Include="Account/Logout.aspx">
+      <publishTime>02/06/2014 08:27:03</publishTime>
+    </File>
+    <File Include="Account/New.aspx">
+      <publishTime>03/14/2014 09:11:06</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Message.resx">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>01/14/2014 09:56:31</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>05/05/2014 11:52:12</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>05/05/2014 11:52:12</publishTime>
+    </File>
+    <File Include="bin/App_GlobalResources.compiled">
+      <publishTime>05/05/2014 11:52:12</publishTime>
+    </File>
+    <File Include="bin/App_GlobalResources.dll">
+      <publishTime>05/05/2014 11:52:12</publishTime>
+    </File>
+    <File Include="bin/BundleTransformer.Core.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/BundleTransformer.Yui.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/Commons.dll">
+      <publishTime>01/14/2014 10:37:31</publishTime>
+    </File>
+    <File Include="bin/EcmaScript.NET.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>01/14/2014 09:56:33</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>01/14/2014 09:56:31</publishTime>
+    </File>
+    <File Include="bin/K2Logger.dll">
+      <publishTime>01/14/2014 10:38:44</publishTime>
+    </File>
+    <File Include="bin/Lib.dll">
+      <publishTime>05/05/2014 11:40:33</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/14/2014 09:56:35</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>09/23/2011 19:24:56</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.Entity.dll">
+      <publishTime>09/23/2011 19:25:00</publishTime>
+    </File>
+    <File Include="bin/NPOI.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/NPOI.OOXML.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXml4Net.dll">
+      <publishTime>01/14/2014 09:56:31</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXmlFormats.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/ru-ru/BundleTransformer.Core.resources.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/ru-ru/BundleTransformer.Yui.resources.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/Site.dll">
+      <publishTime>05/05/2014 11:52:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>01/14/2014 09:56:34</publishTime>
+    </File>
+    <File Include="bin/Yahoo.Yui.Compressor.dll">
+      <publishTime>01/14/2014 09:56:38</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>01/14/2014 09:56:38</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/a.png">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/arrows.png">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/a_old.png">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/blank.gif">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/del.png">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/devices.png">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancybox-x.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancybox-y.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancybox.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_close.png">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_loading.png">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_nav_left.png">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_nav_right.png">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_shadow_e.png">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_shadow_n.png">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_shadow_ne.png">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_shadow_nw.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_shadow_s.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_shadow_se.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_shadow_sw.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_shadow_w.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_title_left.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_title_main.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_title_over.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/fancy_title_right.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/graph1.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/graph2.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/graph2_1.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/graph2_2.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/graph2_3.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/graph2_4.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/graph2_5.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/graph2_6.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/graph3.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/graph4.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/graphs.png">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/img.jpg">
+      <publishTime>01/14/2014 09:56:47</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/img1.png">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/img2.jpg">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/img2.png">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/img3.jpg">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/img3.png">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/img4.jpg">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/img4.png">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/img5.jpg">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/img6.jpg">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/img7.jpg">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/img8.jpg">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/img9.jpg">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/infographics.png">
+      <publishTime>01/14/2014 09:56:50</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/logo.png">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/logo_white.png">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/map_marker.png">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/more.png">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/q.png">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/slide1.jpg">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/slide2.jpg">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/slide2_b.jpg">
+      <publishTime>01/14/2014 09:56:48</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/slide3.jpg">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/socials.png">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/socials_old.png">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/top_btn.png">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/way_arr.png">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Design/Images/Bootstrap/zoom.png">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Design/Images/Datatables/sort_asc.png">
+      <publishTime>02/06/2014 08:27:03</publishTime>
+    </File>
+    <File Include="Design/Images/Datatables/sort_asc_disabled.png">
+      <publishTime>02/06/2014 08:27:03</publishTime>
+    </File>
+    <File Include="Design/Images/Datatables/sort_asc_white.png">
+      <publishTime>02/06/2014 08:27:03</publishTime>
+    </File>
+    <File Include="Design/Images/Datatables/sort_both.png">
+      <publishTime>02/06/2014 08:27:03</publishTime>
+    </File>
+    <File Include="Design/Images/Datatables/sort_desc.png">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Design/Images/Datatables/sort_desc_disabled.png">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Design/Images/Datatables/sort_desc_white.png">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Design/Images/loading.gif">
+      <publishTime>01/14/2014 09:56:46</publishTime>
+    </File>
+    <File Include="Design/Images/logo.jpg">
+      <publishTime>05/05/2014 10:32:48</publishTime>
+    </File>
+    <File Include="Design/Images/noavatar.png">
+      <publishTime>02/27/2014 21:55:31</publishTime>
+    </File>
+    <File Include="Design/Images/Uniform/bg-input-focus.png">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Design/Images/Uniform/bg-input.png">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Design/Images/Uniform/sprite.png">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Design/Styles/Bootstrap/bootstrap-theme.css">
+      <publishTime>05/05/2014 10:32:48</publishTime>
+    </File>
+    <File Include="Design/Styles/Bootstrap/bootstrap.css">
+      <publishTime>05/05/2014 10:32:48</publishTime>
+    </File>
+    <File Include="Design/Styles/Bootstrap/font-awesome-ie7.css">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Design/Styles/Bootstrap/font-awesome.css">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Design/Styles/Bootstrap/jquery.fancybox-1.3.4.css">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Design/Styles/Bootstrap/media.css">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Design/Styles/Bootstrap/rs-responsive.css">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Design/Styles/Bootstrap/style.css">
+      <publishTime>05/05/2014 10:32:48</publishTime>
+    </File>
+    <File Include="Design/Styles/Bootstrap/uniform.default.css">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Design/Styles/Datatables/DT_bootstrap.css">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Design/Styles/Datatables/responsive-tables.css">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Design/Styles/jquery-hint.css">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Design/Styles/style.css">
+      <publishTime>05/05/2014 10:32:48</publishTime>
+    </File>
+    <File Include="Design/Styles/Validate/validationEngine.jquery.css">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Design/Styles/yl-modal.css">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.eot">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.svg">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.ttf">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.woff">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Fonts/FontAwesome.otf">
+      <publishTime>01/14/2014 09:56:49</publishTime>
+    </File>
+    <File Include="Form/List.aspx">
+      <publishTime>02/27/2014 21:55:31</publishTime>
+    </File>
+    <File Include="Form/Ranking.aspx">
+      <publishTime>02/27/2014 21:55:31</publishTime>
+    </File>
+    <File Include="Form/Upload.aspx">
+      <publishTime>03/14/2014 09:11:06</publishTime>
+    </File>
+    <File Include="Form/View.aspx">
+      <publishTime>03/14/2014 09:11:06</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/14/2014 09:56:38</publishTime>
+    </File>
+    <File Include="Handlers/Account/RecoveryPassword.ashx">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Handlers/Account/Validate.ashx">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Handlers/Chart/ChartData.ashx">
+      <publishTime>01/14/2014 09:56:50</publishTime>
+    </File>
+    <File Include="Handlers/GetCities.ashx">
+      <publishTime>01/14/2014 09:56:50</publishTime>
+    </File>
+    <File Include="Handlers/Groups/GetRequests.ashx">
+      <publishTime>03/14/2014 09:11:06</publishTime>
+    </File>
+    <File Include="Handlers/Ranking/Get.ashx">
+      <publishTime>01/14/2014 09:56:50</publishTime>
+    </File>
+    <File Include="Handlers/ResponseForm/Get.ashx">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Master.Master">
+      <publishTime>05/05/2014 10:32:48</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/14/2014 09:56:38</publishTime>
+    </File>
+    <File Include="PageError.aspx">
+      <publishTime>01/14/2014 09:56:38</publishTime>
+    </File>
+    <File Include="PageForbidden.aspx">
+      <publishTime>01/14/2014 09:56:39</publishTime>
+    </File>
+    <File Include="PageNotFound.aspx">
+      <publishTime>01/14/2014 09:56:39</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>05/05/2014 11:52:09</publishTime>
+    </File>
+    <File Include="Redirect.aspx">
+      <publishTime>02/06/2014 08:27:03</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/bootstrap.js">
+      <publishTime>01/14/2014 19:29:53</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/function.js">
+      <publishTime>05/05/2014 10:32:48</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/jquery-1.8.3.min.js">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/jquery-ui.min.js">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/jquery.carouFredSel-6.2.1.js">
+      <publishTime>01/14/2014 09:56:50</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/jquery.easing-1.3.pack.js">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/jquery.easy-pie-chart.js">
+      <publishTime>01/23/2014 18:09:21</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/jquery.fancybox-1.3.4.pack.js">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/jquery.isotope.min.js">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/jquery.mousewheel-3.0.4.pack.js">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/library.js">
+      <publishTime>03/14/2014 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/arrowleft.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/arrowright.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/arrow_large_left.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/arrow_large_right.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/arrow_left.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/arrow_left2.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/arrow_right.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/arrow_right2.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/black50.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/bullets.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/bullets2.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/coloredbg.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/grain.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/loader.gif">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/navigdots.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/navigdots_bgtile.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/shadow1.png">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/shadow2.png">
+      <publishTime>01/14/2014 09:56:52</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/shadow3.png">
+      <publishTime>01/14/2014 09:56:52</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/timer.png">
+      <publishTime>01/14/2014 09:56:52</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/timerdot.png">
+      <publishTime>01/14/2014 09:56:52</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/assets/white50.png">
+      <publishTime>01/14/2014 09:56:52</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/css/settings.css">
+      <publishTime>01/14/2014 09:56:52</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/js/jquery.themepunch.plugins.min.js">
+      <publishTime>01/14/2014 09:56:52</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/js/jquery.themepunch.revolution.js">
+      <publishTime>01/14/2014 09:56:52</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/rs-plugin/js/jquery.themepunch.revolution.min.js">
+      <publishTime>01/14/2014 09:56:52</publishTime>
+    </File>
+    <File Include="Scripts/Datatables/DT_bootstrap.js">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Scripts/Datatables/jquery.dataTables.js">
+      <publishTime>02/06/2014 08:27:05</publishTime>
+    </File>
+    <File Include="Scripts/Datatables/jquery.tablesorter.min.js">
+      <publishTime>02/06/2014 08:27:05</publishTime>
+    </File>
+    <File Include="Scripts/Datatables/responsive-tables.js">
+      <publishTime>02/06/2014 08:27:05</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>01/14/2014 09:56:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-hint.js">
+      <publishTime>01/14/2014 09:56:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-jeditable.js">
+      <publishTime>01/14/2014 09:56:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-json-2.4.js">
+      <publishTime>01/14/2014 09:56:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-meiomask.js">
+      <publishTime>02/27/2014 21:55:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery-sortable.js">
+      <publishTime>01/14/2014 09:56:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-tmpl.js">
+      <publishTime>01/14/2014 09:56:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui.js">
+      <publishTime>01/14/2014 09:56:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery.uniform.js">
+      <publishTime>02/06/2014 08:27:04</publishTime>
+    </File>
+    <File Include="Scripts/main.js">
+      <publishTime>02/14/2014 13:57:18</publishTime>
+    </File>
+    <File Include="Scripts/Validate/jquery.validate.js">
+      <publishTime>02/06/2014 08:27:05</publishTime>
+    </File>
+    <File Include="Scripts/Validate/jquery.validationEngine-pt_BR.js">
+      <publishTime>02/06/2014 08:27:05</publishTime>
+    </File>
+    <File Include="Scripts/Validate/jquery.validationEngine.js">
+      <publishTime>02/06/2014 08:27:05</publishTime>
+    </File>
+    <File Include="Scripts/yl-editable.js">
+      <publishTime>01/14/2014 09:56:50</publishTime>
+    </File>
+    <File Include="Scripts/yl-modal.js">
+      <publishTime>01/14/2014 09:56:50</publishTime>
+    </File>
+    <File Include="User/CurrentForm.aspx">
+      <publishTime>05/05/2014 10:32:48</publishTime>
+    </File>
+    <File Include="User/DashBoard.aspx">
+      <publishTime>05/05/2014 10:32:48</publishTime>
+    </File>
+    <File Include="User/ListForm.aspx">
+      <publishTime>05/05/2014 10:32:48</publishTime>
+    </File>
+    <File Include="User/Profile.aspx">
+      <publishTime>04/26/2014 00:32:02</publishTime>
+    </File>
+    <File Include="User/Request.aspx">
+      <publishTime>03/14/2014 09:11:07</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/14/2014 09:29:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

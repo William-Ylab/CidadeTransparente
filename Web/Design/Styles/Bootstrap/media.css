@@ -1,0 +1,690 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 980px) {
+	#top_menu .nav-pills > .active > a, #top_menu .nav-pills > li > a:hover, #top_menu .nav-pills > li a:hover, #top_menu .dropdown-menu > .active > a {
+	    color:#fff !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	#wrapper .mod .team .person {
+		width:248px;
+		padding-left:20px;
+	}
+	.navbar-collapse {
+		height: 0;
+		overflow: hidden;
+	}
+	.navbar-collapse.collapse {
+		height: 0 !important;
+		overflow: hidden !important;
+	}
+    #container.boxed #out {
+        width:750px;
+        margin:0 auto;
+    }
+    #container.boxed-attached #out {
+        width:750px;
+        margin:0 auto;
+    }
+    #container.boxed + #footer,
+    #container.boxed-attached + #footer {
+        width:750px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #container.boxed #header .inner,
+    #container.boxed-attached #header .inner {
+        left:0;
+        width:auto;
+        margin-left:0;}
+    #main_slider .p_large {
+        font-size:39px;
+    }
+    #main_slider .p_small {
+        width:400px;
+        font-size:17px;
+        line-height:30px;
+    }
+    #wrapper .order_block {
+        height:80px;
+        line-height:78px;
+        font-size:31px;
+    }
+    #wrapper .order_block .order_btn {
+        font-size:22px;
+        height:80px;
+        line-height:82px;
+        padding:0 21px 0 33px;
+    }
+    #wrapper .infograph > sup {
+        display:none;
+    }
+    #wrapper .infograph .row {
+        margin:0 0 0 -20px;
+    }
+    #wrapper .infograph .col-md-3 {
+        width:352px;
+        margin-bottom:15px;
+		padding:0;
+		margin-left:20px;
+    }
+    #wrapper .infograph .col-md-3:first-child + .col-md-3 + .col-md-3 {
+        clear:both;	
+    }
+    #wrapper .infograph .graph {
+        margin-bottom:0;
+        float:left;
+        width:170px;
+    }
+    #wrapper .infograph .desc {
+        float:right;
+        width:180px;
+    }
+    #wrapper .infograph .desc > i {
+        display:none;
+    }
+    #wrapper .infograph .desc .text {
+        font-weight:300;	
+    }
+    #wrapper .mod .carousel {
+        margin-right:0;
+        margin-left:-20px;
+    }
+    #wrapper .mod .carousel .left_arr {
+        right:31px;
+    }
+    #wrapper .mod .carousel .right_arr {
+        right:0px;
+    }
+    #wrapper .mod .carousel ul li {
+        width:248px;
+		padding-left:20px;
+    }
+    #wrapper .mod .carousel ul li .col-md-4 {
+        width:228px;
+    }
+    #about_block .col-md-6 {
+        width:724px;
+    }
+    #about_block .col-md-6 + .col-md-6 {
+        margin-top:18px;}
+    #about_block .col-md-6  .article {
+        margin-left:0;
+    }
+    #wrapper .mod .team {
+        margin-left:-20px;
+    }
+    #wrapper .mod .work {
+        margin-right:0;	
+    }
+    #footer .col-md-4 {
+        width: 348px;
+        margin-bottom:20px;
+    }
+    #footer .col-md-4 + .col-md-4 + .col-md-4 {
+        width: 724px;
+        margin-bottom:0;
+    }
+    .infograph2 .col-md-6 + .col-md-6 {
+		padding-left:25px;
+    }
+    .infograph2 .styled_list[data-type='process_box'] .num {
+        width:86px;
+    }
+    .infograph2 .styled_list[data-type='process_box'] .text {
+        margin-left: 86px;
+        padding-left:15px;
+    }
+    .progress_bars.vertical + .progress_bars.vertical {
+        margin-left: 8.5%;
+    }
+    .infograph2 .caption {
+        font-size:22px;
+    }
+    .info_divider.vertical {
+        margin-bottom:2.5%;
+    }
+    .progress_bars_with_numbers .item {
+        margin:0 1%;
+    }
+	#top_menu .nav-pills > li {
+		float:none;
+		margin:0;
+	}
+	.navbar-toggle {
+		display:block;
+	}
+    #top_menu .nav-pills > li > a {
+        padding:8px;
+        font-size:12px;
+        background-color: #000000;
+        border-bottom: 1px solid #333333;
+        box-shadow: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: lighter;
+        text-shadow: none;
+        margin: 0;
+        border-radius: 0;
+    }
+    .navbar-collapse .dropdown-menu li + li a {
+        margin-bottom: 0px;
+    }
+    #top_menu .nav-pills > li.active > a, #top_menu .nav-pills > li > a:hover {
+        background-color: #000000 !important;
+        color: #038989;
+        text-shadow: none !important;
+    }
+    .nav-pills .dropdown-menu {
+        display: block;
+        margin: 0;
+        background-color: #000000;
+		position:static;
+		float:none;
+		border:0;
+		padding:0;
+    }
+    .navbar-collapse .nav > li > a, .navbar-collapse .dropdown-menu a {
+        color: #ffffff;
+        text-transform: none;
+        font-weight: lighter;
+        text-shadow: none;
+        margin: 0;
+        border-bottom: 1px solid #333;
+		line-height:14px;
+		padding:8px 20px;
+    }
+    #top_menu .navbar-collapse .nav > li > a:hover, 
+	#top_menu .navbar-collapse .nav > li > a:focus, 
+	#top_menu .navbar-collapse .dropdown-menu a:hover, 
+	#top_menu .navbar-collapse .dropdown-menu a:focus, 
+	#top_menu .navbar-collapse .dropdown-menu .active a {
+        background-color: #000000 !important;
+        color: #038989;
+    }
+    #top_menu {
+        margin-right:-8px;
+        width: 100%;
+    }
+    .navbar .navbar-btn {
+        margin-top: 35px;
+    }
+    #header {
+        height: auto;
+    }
+    #header .inner {
+        position: static;
+    }
+    #top_menu .navbar-collapse {
+        margin-left: -131px;
+		padding:0;
+    }
+    .slide2 .cap-2 span {
+        font-size: 27px;
+        line-height: 44px;
+    }
+    .slide3 .cap-2 span {
+        font-size: 27px;
+        line-height: 44px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+	.navbar-collapse, .navbar-collapse.collapse {
+		height: 0;
+		overflow: hidden;
+	}
+    body {
+        padding:0;
+    }
+	.nav-tabs > li > a, .nav-pills > li > a {
+		line-height:14px;
+	}
+    #container.boxed #out {
+        margin:0 20px;
+        width:auto;
+    }
+    #container.boxed-attached #out {
+        margin:0 20px;
+        width:auto;
+    }
+    #container.boxed + #footer,
+    #container.boxed-attached + #footer {
+        margin-left:20px;
+        margin-right:20px;
+        width:auto;
+    }
+
+    #container.boxed #header .inner,
+    #container.boxed-attached #header .inner {
+        left:0;
+        width:auto;
+        margin-left:0;}
+    #wrapper .mod .caption {
+        margin-left:0;
+    }
+    #header .inner .top .contacts_block .phone {
+        float:left;
+    }
+    #header {
+        height:auto;
+    }
+    #header .inner {
+        padding-bottom:12px;
+        position:static;
+    }
+    #top_menu {
+        margin:0;
+        float:none;
+        clear:both;
+        background:#259d8e;
+        padding:0;
+        margin:0 -10px;
+    }
+    #top_menu select {
+        margin:0;
+        width:100%;
+        height:30px;
+        border-radius:5px;
+        font-size:12px;
+        text-transform:uppercase;
+        color:#018aca;}
+	.navbar-collapse {
+		padding:0;
+	}
+	#top_menu .nav-pills > li {
+		float:none;
+	}	
+    #main_slider .caption img {
+        display:none;}
+    #main_slider .p_large {
+        font-size:35px;
+    }
+    #main_slider .p_small {
+        width:400px;
+        font-size:17px;
+        line-height:30px;
+    }
+    #wrapper .order_block {
+        height:110px;
+        line-height:55px;
+        font-size:24px;
+        text-align:center;
+        position:relative;
+    }
+    #wrapper .order_block .order_btn {
+        float:none;
+        font-size:22px;
+        height:55px;
+        line-height:55px;
+        width:100%;
+        display:block;
+        margin:0;
+        position:absolute;
+        top:55px;
+        left:0;
+        right:0;
+    }
+    #wrapper .order_block .order_btn:before {
+        display:none;
+    }
+    #wrapper .infograph {
+        padding-bottom:17px;
+    }
+    #wrapper .infograph .header {
+        font-size:32px;
+    }
+    #wrapper .infograph > sup {
+        display:none;
+    }
+    #wrapper .infograph .col-md-3 {
+        width:100%;
+        margin-bottom:36px;
+    }
+        #wrapper .infograph .col-md-6 {
+        width:100%;
+        margin-bottom:36px;
+    }
+    #wrapper .infograph .graph {
+        margin-bottom:0;
+        float:left;
+        width:47%;
+    }
+    #wrapper .infograph .desc {
+        float:right;
+        width:47%;
+        margin-left:6%;
+        padding:40px 20px;
+    }
+    #wrapper .infograph .desc > i {
+        display:none;
+    }
+    #wrapper .infograph .desc .text {
+        font-weight:300;	
+    }
+    #wrapper .mod .carousel, #wrapper .mod .team {
+        margin-right:0;
+		margin-left:-20px;
+    }
+    #wrapper .mod .carousel {
+        margin-bottom:0;
+    }
+    #wrapper .mod .carousel > a {
+        display:none;
+    }
+    #wrapper .mod .carousel ul li, #wrapper .mod .team .person{
+        width:50%%;
+        float:left;
+    }
+    #wrapper .mod .carousel ul li + li + li, #wrapper .mod .team .col-md-4 + .col-md-4 + .col-md-4 {
+        margin-top:17px;
+    }
+    #wrapper .mod .carousel.articles ul li + li + li {
+        margin-top:55px;
+    }
+    #wrapper .mod .carousel ul li .col-md-4 {
+        width:100%;
+    }
+    #wrapper .mod .article {
+        margin-left:0;	
+    }
+    #wrapper .mod .work {
+        margin-right:0;
+    }
+    #about_block .col-md-6 + .col-md-6 {
+        margin-top:40px;
+    }
+    #wrapper .mod .contact_form {
+        margin:0 -10px 25px;
+    }
+    #wrapper .mod .info {
+        margin-left:0;
+        margin-bottom:0;
+        float:left;
+        width:47%;
+    }
+    #wrapper .mod .info + .info {
+        margin-left:6%;
+    }
+    #footer .col-md-4 + .col-md-4 {
+        margin-top:40px;
+    }
+    .infograph2 .col-md-6 + .col-md-6 {
+		padding-left:10px;
+        float:none;
+        margin-top:40px;
+    }
+    .infograph4 .col-md-6 + .col-md-6 {
+        margin-top:50px;
+    }
+    .infograph6 .col-md-6 + .col-md-6 {
+        margin-top:40px;
+    }
+    .progress_bars_with_image .item.break:after {
+        display:none;
+    }
+    .styled_list[data-type="large_numbers"] li .num {
+        margin-bottom:15px;
+    }
+    .styled_list[data-type="large_numbers"] li .text .name {
+        margin-bottom:15px;
+    }
+    .article_block h1 {
+        margin-left:0;
+    }
+    .article_block .col-md-4 {
+        margin-top:30px;
+    }
+    #top_menu {
+        background-color: #ffffff;
+    }
+    #top_menu .nav-pills > li > a {
+        padding:8px;
+        font-size:12px;
+        background-color: #000000 !important;
+        border-bottom: 1px solid #333333;
+        box-shadow: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: lighter;
+        text-shadow: none;
+        margin: 0;
+        border-radius: 0;
+    }
+    .navbar-collapse .dropdown-menu li + li a {
+        margin-bottom: 0px;
+    }
+    #top_menu .nav-pills > .active > a, #top_menu .nav-pills > li > a:hover {
+        background-color: #000000;
+        color: #038989;
+        text-shadow: none !important;
+    }
+    .nav-pills .dropdown-menu {
+        display: block;
+        margin: 0;
+        background-color: #000000;
+		position:static;
+		float:none;
+		border:0;
+		padding:0;
+    }
+    .navbar-collapse .nav > li > a, .navbar-collapse .dropdown-menu a {
+        color: #ffffff;
+        text-transform: none;
+        font-weight: lighter;
+        text-shadow: none;
+        margin: 0;
+		line-height:14px;
+    }
+    #top_menu .navbar-collapse .nav > li > a:hover, 
+	#top_menu .navbar-collapse .nav > li > a:focus, 
+	#top_menu .navbar-collapse .dropdown-menu a:hover, 
+	#top_menu .navbar-collapse .dropdown-menu a:focus, 
+	#top_menu .navbar-collapse .dropdown-menu .active a {
+        background-color: #000000 !important;
+        color: #038989;
+    }
+    #top_menu .nav-pills > li > ul a {
+        font-size:12px;
+        padding:8px 15px;
+        border-bottom: 1px solid #333333;
+        text-transform: uppercase;
+    }
+    #top_menu {
+        padding-top: 0;
+    }
+    #top_menu .navbar {
+        margin-bottom:0;
+		min-height:0;
+    }
+	#top_menu .navbar:after {
+		display:none;
+	}
+    .navbar .navbar-btn {
+        margin-top: -60px;
+    }
+    #header {
+        height: auto;
+    }
+    #header .inner {
+        position: static;
+    }
+    #top_menu .nav-pills {
+        padding-top: 0;
+    }
+    .slide1 .cap-2 span {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .slide2 .cap-2 span {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .slide3 .cap-2 span {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+@media (max-width: 480px) {
+	#wrapper .mod .carousel ul li {
+		padding-left:0;
+	}
+    #container.boxed {
+        padding:10px 0;}
+    #container.boxed #out {
+        margin:0 10px;
+        width:auto;
+    }
+    #container.boxed-attached #out {
+        margin:0 10px;
+        width:auto;
+    }
+    #container.boxed + #footer,
+    #container.boxed-attached + #footer {
+        margin-left:10px;
+        margin-right:10px;
+        width:auto;
+    }
+
+    #container.boxed + #footer {
+        padding-bottom:10px;
+    }
+
+    #header .inner .top {
+        height:auto;}
+    #header .inner .top .contacts_block .social_links,
+    #header .inner .top .contacts_block .phone {
+        float:none;
+        text-align:center;
+        margin:10px 0;
+    }
+    #header .inner {
+        margin-bottom:0;
+    }
+    #main_slider {
+        display:none;
+    }
+    #wrapper .order_block {
+        font-size:17px;
+    }
+    #wrapper .infograph .header {
+        font-size:24px;
+    }
+    #wrapper .infograph .desc {
+        padding:20px;
+        min-height:144px;
+    }
+    #wrapper .infograph .desc .name {
+        font-size:16px;
+        line-height:20px;
+    }
+    #wrapper .infograph .desc .text {
+        font-size:12px;
+        line-height:16px;
+    }
+    .progress_bars_with_image_title {
+        font-size:20px;
+    }
+    #wrapper .mod {
+        text-align:center;
+    }
+	#wrapper .mod .carousel, #wrapper .mod .team {
+		margin-left:0;
+	}
+    #wrapper .mod .carousel ul li, #wrapper .mod .team .person {
+        width:100%;
+        margin-bottom:30px;
+        margin-top:0 !important;
+		margin-left:0;
+    }
+	.photo + .photo {
+		margin-top:30px;
+	}
+    #wrapper .mod .carousel.articles ul li + li + li, #wrapper .mod .team .col-md-4 + .col-md-4 + .col-md-4 {
+        margin-top:0;
+    }
+    #wrapper .mod .carousel ul li .img img, #wrapper .mod .team .col-md-4 .img img {
+        width:100%;
+    }
+    .styled_list[data-type='process_box'] li .num {
+        width:50px;
+        font-size:26px;
+    }
+    .styled_list[data-type='process_box'] li .text {
+        margin-left:50px;
+        padding-left:10px;
+        text-align:left;
+    }
+    .styled_list[data-type='process_box'] li .text .name,
+    .styled_list[data-type='process_box'] li .text .desc {
+        width:240px;
+    }
+    #wrapper .mod .info {
+        width:100%;
+        margin-bottom:30px;
+        padding:0 20px;
+        text-align:center;
+    }
+    #wrapper .mod .info + .info {
+        margin-left:0;
+    }
+    #wrapper .mod .info .header {
+        line-height:normal;
+    }
+    #footer .top {
+        text-align:center;
+    }
+    #footer .top .subscribe {
+        width:264px;
+        margin:0 auto;
+    }
+    .infograph2 .caption {
+        font-size: 20px;
+        text-align:center;
+    }
+    .progress_bars.vertical + .progress_bars.vertical {
+        margin-left: 7.5%;
+    }
+    .infograph3 .caption {
+        font-size:20px;
+        line-height:24px;
+    }
+    .progress_bars_with_numbers .item {
+        margin-bottom:50px;
+    }
+    .infograph4 .header, .infograph5 .header {
+        text-align:center;
+    }
+    .infograph4 .trend .img {
+        height:auto;
+        line-height:normal;
+    }
+    .question {
+        padding-left:86px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .answer {
+        padding-left:86px;}
+    .answer p {
+        font-size:14px;
+        line-height:18px;
+    }
+    .infograph6, .infograph6 .progress_bars_with_image {
+        text-align:center;
+    }
+    .infograph6 .header {
+        text-align:center;
+        font-size:30px;}
+    .infograph6 .caption {
+        font-size:18px;
+        line-height:22px;
+    }
+    .progress_bars_with_numbers {
+        margin-bottom:0;
+    }
+}

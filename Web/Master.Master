@@ -1,0 +1,199 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Site.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <!--Stylesheet-->
+    <link href="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Design/Styles/base") %>" rel="Stylesheet" type="text/css" />
+    <link href="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Design/Styles/Bootstrap/bootstrap") %>" rel="Stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/jquery") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/jqueryui") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/base") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/plugins") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/Bootstrap/bootstrap") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/Bootstrap/rs-plugin/responsive") %>" type="text/javascript"></script>
+    <link href="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Design/Styles/Validate/validate") %>" rel="Stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="../Scripts/Bootstrap/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/Bootstrap/bootstrapplugins") %>" type="text/javascript"></script>
+    <script src="<%= @System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/Validate/validate") %>" type="text/javascript"></script>
+
+    <%--            <script type="text/javascript" src="../Scripts/Bootstrap/bootstrap.js"></script>
+        <script type="text/javascript" src="../Scripts/Bootstrap/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="../Scripts/Bootstrap/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+        <script type="text/javascript" src="../Scripts/Bootstrap/jquery.carouFredSel-6.2.1.js"></script>
+        <script type="text/javascript" src="../Scripts/Bootstrap/jquery.easy-pie-chart.js"></script>
+        <script type="text/javascript" src="../Scripts/Bootstrap/library.js"></script>
+        <script type="text/javascript" src="../Scripts/Bootstrap/function.js"></script>--%>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="Design/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="Design/favicon.ico" type="image/x-icon" />
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#form1").validationEngine();
+            $('.uniform').uniform();
+        });
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body data-spy="scroll" data-target="#affix-nav">
+    <form id="form1" runat="server">
+        <div id="master_alert" class="alert" style="display: none">
+            <span></span>
+        </div>
+        <div id="container" class="main">
+            <div id="out">
+                <div id="home_marker"></div>
+                <div id="header">
+                    <div class="inner">
+                        <%--                        <!-- start notification bar -->
+                        <div class="notify-bar">
+                            
+                        </div>
+                        <!-- /end notification bar -->--%>
+                        <!-- start top grey bar -->
+                        <div class="top">
+                            <div class="container" style="padding: 10px; color: #000">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-12 col-sm-6">
+                                        <asp:Label ID="lblTitleHello" runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-md-6 col-xs-12 col-sm-6 text-right">
+                                        <!-- enter notification message here -->
+                                        <div id="divlogin" runat="server">
+                                            <a runat="server" id="aNewAccout" href="/Account/New.aspx">Cadastrar</a> | <a runat="server" id="aLogin" href="/Account/Login.aspx">
+                                                <asp:Literal ID="Literal1" Text='<%$Resources: Message, start_session %>' runat="server" /></a>
+                                        </div>
+                                        <div id="divProfile" runat="server" visible="false">
+                                            <ul class="nav navbar-nav navbar-right text-left">
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle no-padding" style="min-width:140px;height:30px" data-toggle="dropdown">
+                                                        <asp:Image ID="imgThumb" ImageUrl="~/Design/Images/noavatar.png" runat="server" Width="30" Height="30" style="float:left;" Visible="false" />
+                                                        <span style="float:left;margin-top:7px;margin-left:5px;"><asp:Label ID="lblUserName" runat="server"></asp:Label></span>
+                                                        <b style="float: right;margin-top: 12px;" class="caret"></b></a>
+                                                    <ul class="dropdown-menu" style="z-index: 1001">
+                                                        <li><a class="styler_hover_bg_color styler_active_bg_color styler_hover_color styler_active_color" href="/User/Profile.aspx" runat="server" id="aEditProfile"><i class="fa fa-fw fa-lg fa-user"></i>
+                                                            <asp:Literal ID="Literal2" Text='<%$Resources: Message, edit_profile %>' runat="server" /></a></li>
+                                                        <li><a class="styler_hover_bg_color styler_active_bg_color styler_hover_color styler_active_color" href="../User/ListForm.aspx"><i class="fa fa-fw fa-lg fa-list"></i>
+                                                            <asp:Literal ID="Literal5" Text='<%$Resources: Message, my_forms %>' runat="server" /></a></li>
+                                                        <li class="divider"></li>
+                                                        <li><a class="styler_hover_bg_color styler_active_bg_color styler_hover_color styler_active_color" href="/Account/logout.aspx" runat="server" id="aLogout"><i class="fa fa-fw fa-lg fa-sign-out"></i>
+                                                            <asp:Literal ID="Literal3" Text='<%$Resources: Message, logout %>' runat="server" /></a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="scrollup"></a>
+                        </div>
+                        <!-- /end top grey bar -->
+
+                        <!-- start logo and nav area -->
+                        <div class="bottom">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3 col-xs-12 col-sm-3">
+                                        <!-- your logo goes here -->
+                                        <a runat="server" href="/Default.aspx" id="logo">
+                                            <img src="/Design/Images/logo.jpg" alt="Governo transparente" width="180" /></a>
+                                    </div>
+                                    <div class="col-md-9 col-xs-12 col-sm-9">
+                                        <div id="top_menu">
+                                            <div class="navbar">
+                                                <a class="btn navbar-btn navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                                    <span class="menu-btn-name">
+                                                        <asp:Literal ID="Literal7" Text='<%$Resources: Message, menu %>' runat="server" /></span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                </a>
+                                                <div class="navbar-collapse">
+                                                    <ul class="nav nav-pills">
+                                                        <!-- navigation menus here -->
+                                                        <li><a href="/Default.aspx" class="styler_hover_bg_color styler_active_bg_color styler_hover_color styler_active_color">
+                                                            <asp:Literal ID="Literal6" Text='<%$Resources: Message, home %>' runat="server" /></a></li>
+                                                        <li><a href="../Form/Ranking.aspx" class="styler_hover_bg_color styler_active_bg_color styler_hover_color styler_active_color">
+                                                            <asp:Literal ID="Literal4" Text='<%$Resources: Message, cities %>' runat="server" /></a></li>
+                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color styler_hover_color styler_active_color">
+                                                            <asp:Literal ID="Literal8" Text='<%$Resources: Message, about_us %>' runat="server" /></a></li>
+                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color styler_hover_color styler_active_color">
+                                                            <asp:Literal ID="Literal9" Text='<%$Resources: Message, methodology %>' runat="server" /></a></li>
+                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color styler_hover_color styler_active_color">
+                                                            <asp:Literal ID="Literal10" Text='<%$Resources: Message, how_to_participate %>' runat="server" /></a></li>
+                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color styler_hover_color styler_active_color">
+                                                            <asp:Literal ID="Literal12" Text='<%$Resources: Message, good_praticies %>' runat="server" /></a></li>
+                                                        <li><a href="#" class="styler_hover_bg_color styler_active_bg_color styler_hover_color styler_active_color">
+                                                            <asp:Literal ID="Literal11" Text='<%$Resources: Message, contact %>' runat="server" /></a></li>
+                                                        <%--<li id="li_allforms" runat="server"><a href="../User/ListForm.aspx" class="styler_hover_bg_color styler_active_bg_color styler_hover_color styler_active_color"><asp:Literal ID="Literal5" Text='<%$Resources: Message, my_forms %>' runat="server" /></a></li>--%>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /end logo and nav area -->
+
+                    </div>
+                </div>
+                <div id="wrapper">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="empty"></div>
+            </div>
+        </div>
+    </form>
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-47722754-1', 'governotransparente.org.br');
+        ga('send', 'pageview');
+
+
+        $(document).ready(function () {
+
+            try
+            {
+                var url = window.location.href.split('/');
+                var urlHref = '';
+
+                for (var i = 3; i < url.length  ; i++) {
+                    urlHref += url[i];
+
+                    if (i < url.length - 1) {
+                        urlHref += '/';
+                    }
+                }
+
+                var x = $('a[href$="' + urlHref + '"]');
+
+                $(x).each(function (i, v) {
+                    $(v).addClass('styler_bg_color');
+                });
+            }
+            catch(e){}
+
+        });
+
+    </script>
+</body>
+</html>

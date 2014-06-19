@@ -1,0 +1,84 @@
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Site.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Site.pdb
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Antlr3.Runtime.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\BundleTransformer.Core.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\BundleTransformer.Yui.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Commons.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\EcmaScript.NET.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Lib.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Microsoft.Web.Infrastructure.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Newtonsoft.Json.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\System.Web.Optimization.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\WebGrease.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Yahoo.Yui.Compressor.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\EntityFramework.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\NPOI.OOXML.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\NPOI.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\K2Logger.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\NPOI.OpenXmlFormats.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\NPOI.OpenXml4Net.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\ICSharpCode.SharpZipLib.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Lib.pdb
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Antlr3.Runtime.pdb
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Newtonsoft.Json.xml
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\System.Web.Optimization.xml
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\EntityFramework.xml
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\ru-ru\BundleTransformer.Core.resources.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\ru-ru\BundleTransformer.Yui.resources.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\obj\Debug\Site.csprojResolveAssemblyReference.cache
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\obj\Debug\Site.dll
+F:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\obj\Debug\Site.pdb
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Site.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Site.pdb
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Antlr3.Runtime.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\BundleTransformer.Core.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\BundleTransformer.Yui.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\EcmaScript.NET.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Lib.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Microsoft.Web.Infrastructure.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\MySql.Data.Entity.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\System.Web.Optimization.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Yahoo.Yui.Compressor.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\EntityFramework.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\MySql.Data.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\NPOI.OOXML.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\NPOI.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\NPOI.OpenXmlFormats.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\NPOI.OpenXml4Net.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\ICSharpCode.SharpZipLib.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Lib.pdb
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\Antlr3.Runtime.pdb
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\System.Web.Optimization.xml
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\EntityFramework.xml
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\ru-ru\BundleTransformer.Core.resources.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\bin\ru-ru\BundleTransformer.Yui.resources.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\obj\Debug\Site.csprojResolveAssemblyReference.cache
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\obj\Debug\Site.dll
+D:\K2GO TFS\Projects\Amarribo\Ferramenta de transparência\Development\CurrentDevelopment\Web\obj\Debug\Site.pdb
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\Site.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\Site.pdb
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\Antlr3.Runtime.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\BundleTransformer.Core.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\BundleTransformer.Yui.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\EcmaScript.NET.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\Lib.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\Microsoft.Web.Infrastructure.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\MySql.Data.Entity.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\System.Web.Optimization.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\Yahoo.Yui.Compressor.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\EntityFramework.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\MySql.Data.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\NPOI.OOXML.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\NPOI.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\NPOI.OpenXmlFormats.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\NPOI.OpenXml4Net.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\ICSharpCode.SharpZipLib.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\Lib.pdb
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\Antlr3.Runtime.pdb
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\System.Web.Optimization.xml
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\EntityFramework.xml
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\ru-ru\BundleTransformer.Core.resources.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\bin\ru-ru\BundleTransformer.Yui.resources.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\obj\Debug\Site.csprojResolveAssemblyReference.cache
+D:\GitHub\Amarribo\CidadeTransparente\Web\obj\Debug\Site.dll
+D:\GitHub\Amarribo\CidadeTransparente\Web\obj\Debug\Site.pdb

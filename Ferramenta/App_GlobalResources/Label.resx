@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="administrator" xml:space="preserve">
+    <value>Administrador</value>
+  </data>
+  <data name="already_published" xml:space="preserve">
+    <value>Este questionário já foi publicado!</value>
+  </data>
+  <data name="already_rated" xml:space="preserve">
+    <value>Você já classificou este formulário.</value>
+  </data>
+  <data name="answered_questions" xml:space="preserve">
+    <value>Formulários respondidos</value>
+  </data>
+  <data name="approve" xml:space="preserve">
+    <value>Aprovar</value>
+  </data>
+  <data name="approved" xml:space="preserve">
+    <value>Aprovado</value>
+  </data>
+  <data name="approve_question" xml:space="preserve">
+    <value>Aprovar questionário</value>
+  </data>
+  <data name="calculation_details" xml:space="preserve">
+    <value>Detalhamento dos cálculos</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="closed" xml:space="preserve">
+    <value>Fechado</value>
+  </data>
+  <data name="create_a_new_baseform" xml:space="preserve">
+    <value>Criar um novo questionário</value>
+  </data>
+  <data name="create_new_period" xml:space="preserve">
+    <value>Cadastrar um novo período</value>
+  </data>
+  <data name="dashboard" xml:space="preserve">
+    <value>Painel de controle</value>
+  </data>
+  <data name="disable" xml:space="preserve">
+    <value>Inativo</value>
+  </data>
+  <data name="disables" xml:space="preserve">
+    <value>Inativos</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="enable" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="enables" xml:space="preserve">
+    <value>Ativos</value>
+  </data>
+  <data name="entity" xml:space="preserve">
+    <value>Entidade</value>
+  </data>
+  <data name="filter" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="final_date" xml:space="preserve">
+    <value>Data final</value>
+  </data>
+  <data name="final_date_period" xml:space="preserve">
+    <value>Data final do período</value>
+  </data>
+  <data name="initial_date" xml:space="preserve">
+    <value>Data inicial</value>
+  </data>
+  <data name="initial_date_period" xml:space="preserve">
+    <value>Data inicial do período</value>
+  </data>
+  <data name="list_item_period_label" xml:space="preserve">
+    <value>{0} (de {1:dd/MM/yyyy} até {2:dd/MM/yyyy})</value>
+  </data>
+  <data name="manage_form" xml:space="preserve">
+    <value>Gerenciar questionários</value>
+  </data>
+  <data name="manage_response_form" xml:space="preserve">
+    <value>Avaliação de questionários</value>
+  </data>
+  <data name="manage_users" xml:space="preserve">
+    <value>Gerenciar usuários</value>
+  </data>
+  <data name="master" xml:space="preserve">
+    <value>Adminstrador Master</value>
+  </data>
+  <data name="menu_period" xml:space="preserve">
+    <value>Período {0}</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="new_period" xml:space="preserve">
+    <value>Novo período</value>
+  </data>
+  <data name="new_user" xml:space="preserve">
+    <value>Novo usuário</value>
+  </data>
+  <data name="no_reviews" xml:space="preserve">
+    <value>Nenhuma classificação realizada.</value>
+  </data>
+  <data name="observations" xml:space="preserve">
+    <value>Observações</value>
+  </data>
+  <data name="open" xml:space="preserve">
+    <value>Aberto</value>
+  </data>
+  <data name="period" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="period_already_published" xml:space="preserve">
+    <value>Período já publicado.</value>
+  </data>
+  <data name="period_couldnt_be_published" xml:space="preserve">
+    <value>Este período não pode ser publicado.</value>
+  </data>
+  <data name="period_list" xml:space="preserve">
+    <value>Lista de períodos</value>
+  </data>
+  <data name="period_register" xml:space="preserve">
+    <value>Cadastro de período</value>
+  </data>
+  <data name="period_status" xml:space="preserve">
+    <value>Status do período</value>
+  </data>
+  <data name="publish" xml:space="preserve">
+    <value>Publicar</value>
+  </data>
+  <data name="publish_period" xml:space="preserve">
+    <value>Publicar período</value>
+  </data>
+  <data name="publish_question" xml:space="preserve">
+    <value>Publicar questionário</value>
+  </data>
+  <data name="publish_questions" xml:space="preserve">
+    <value>Publicar questionários</value>
+  </data>
+  <data name="publish_questions_terms1" xml:space="preserve">
+    <value>Ao concordar em publicar o período, todos os questionários respondidos que tiveram a submissão aceita irão ser publicados no site. Sendo assim, não será possível desfazer essa ação.</value>
+  </data>
+  <data name="publish_questions_terms2" xml:space="preserve">
+    <value>Você tem certeza que deseja publicar o período?</value>
+  </data>
+  <data name="publish_selected_questions" xml:space="preserve">
+    <value>Publicar questionários selecionados</value>
+  </data>
+  <data name="question_name" xml:space="preserve">
+    <value>Nome do questionário</value>
+  </data>
+  <data name="rate" xml:space="preserve">
+    <value>Classificar</value>
+  </data>
+  <data name="reprove" xml:space="preserve">
+    <value>Reprovar</value>
+  </data>
+  <data name="reproved" xml:space="preserve">
+    <value>Reprovado</value>
+  </data>
+  <data name="reprove_question" xml:space="preserve">
+    <value>Reprovar formulário</value>
+  </data>
+  <data name="reviews" xml:space="preserve">
+    <value>Classificações</value>
+  </data>
+  <data name="review_date" xml:space="preserve">
+    <value>Data da classificação</value>
+  </data>
+  <data name="show" xml:space="preserve">
+    <value>Visualizar</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="submision_status" xml:space="preserve">
+    <value>Status da submissão</value>
+  </data>
+  <data name="submissions" xml:space="preserve">
+    <value>Submissões</value>
+  </data>
+  <data name="submission_date" xml:space="preserve">
+    <value>Data da submissão</value>
+  </data>
+  <data name="submitted" xml:space="preserve">
+    <value>Submetido</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>Nome do usuário</value>
+  </data>
+  <data name="usertype" xml:space="preserve">
+    <value>Tipo de usuário</value>
+  </data>
+  <data name="user_comum" xml:space="preserve">
+    <value>Usuários comuns</value>
+  </data>
+  <data name="user_status" xml:space="preserve">
+    <value>Status do usuário</value>
+  </data>
+  <data name="visualize_questions_tobe_published" xml:space="preserve">
+    <value>Visualizar formulários que serão publicados.</value>
+  </data>
+  <data name="withou_filter" xml:space="preserve">
+    <value>Sem filtro</value>
+  </data>
+  <data name="copy_form_from" xml:space="preserve">
+    <value>Copiar a partir</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="accepted_terms" xml:space="preserve">
+    <value>Termos de uso aceito?</value>
+  </data>
+  <data name="nature" xml:space="preserve">
+    <value>Natureza</value>
+  </data>
+  <data name="entity_network_approved" xml:space="preserve">
+    <value>Entidade credenciada aprovada?</value>
+  </data>
+  <data name="add_a_new_question" xml:space="preserve">
+    <value>Adicionar uma nova pergunta</value>
+  </data>
+  <data name="add_new_sub_block" xml:space="preserve">
+    <value>Adicionar um novo sub-bloco</value>
+  </data>
+  <data name="add_question" xml:space="preserve">
+    <value>Adicionar pergunta</value>
+  </data>
+  <data name="add_sub_block" xml:space="preserve">
+    <value>Adicionar sub-bloco</value>
+  </data>
+  <data name="approve_form" xml:space="preserve">
+    <value>Aprovar questionário</value>
+  </data>
+  <data name="copy_form" xml:space="preserve">
+    <value>Copiar formulário</value>
+  </data>
+  <data name="delete_question" xml:space="preserve">
+    <value>Deletar pergunta</value>
+  </data>
+  <data name="delete_sub_block" xml:space="preserve">
+    <value>Deletar sub-bloco</value>
+  </data>
+  <data name="desire_create_a_new_form" xml:space="preserve">
+    <value>Desejo criar um novo questionário</value>
+  </data>
+  <data name="desire_create_from_another_form" xml:space="preserve">
+    <value>Desejo criar a partir de um questionário existente</value>
+  </data>
+  <data name="edit_form_name" xml:space="preserve">
+    <value>Editar nome do questionário</value>
+  </data>
+  <data name="edit_question" xml:space="preserve">
+    <value>Editar pergunta</value>
+  </data>
+  <data name="edit_sub_block" xml:space="preserve">
+    <value>Editar sub-bloco</value>
+  </data>
+  <data name="no_form_founded_for_this_period" xml:space="preserve">
+    <value>Nenhum questionário encontrado para esse período</value>
+  </data>
+  <data name="period_is_open_so_cannot_be_edited" xml:space="preserve">
+    <value>O período está aberto, portanto o questionário não pode ser editado</value>
+  </data>
+  <data name="register_a_new_period" xml:space="preserve">
+    <value>Cadastrar um novo período</value>
+  </data>
+  <data name="remove_question" xml:space="preserve">
+    <value>Deletar pergunta</value>
+  </data>
+  <data name="remove_sub_block" xml:space="preserve">
+    <value>Deletar sub-bloco</value>
+  </data>
+  <data name="repprove_form" xml:space="preserve">
+    <value>Reprovar questionário</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="weight" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="create_a_new_period" xml:space="preserve">
+    <value>Criar um novo período</value>
+  </data>
+  <data name="loading_periods" xml:space="preserve">
+    <value>Carregando os períodos...</value>
+  </data>
+  <data name="loading_users" xml:space="preserve">
+    <value>Carregando usuários...</value>
+  </data>
+  <data name="registers_founded" xml:space="preserve">
+    <value> registro(s) encontrado(s)</value>
+  </data>
+  <data name="wait" xml:space="preserve">
+    <value>Aguarde...</value>
+  </data>
+  <data name="accredited" xml:space="preserve">
+    <value>Credenciada</value>
+  </data>
+  <data name="active" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="address_informations" xml:space="preserve">
+    <value>Informações sobre o endereço</value>
+  </data>
+  <data name="city" xml:space="preserve">
+    <value>Cidade</value>
+  </data>
+  <data name="cnpj" xml:space="preserve">
+    <value>CNPJ</value>
+  </data>
+  <data name="contact_informations" xml:space="preserve">
+    <value>Informações de contato</value>
+  </data>
+  <data name="create_a_new_user" xml:space="preserve">
+    <value>Criar um novo usuário</value>
+  </data>
+  <data name="do_login" xml:space="preserve">
+    <value>Efetuar Login</value>
+  </data>
+  <data name="edit_profile" xml:space="preserve">
+    <value>Editar perfil</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="exiting" xml:space="preserve">
+    <value>Saindo...</value>
+  </data>
+  <data name="form" xml:space="preserve">
+    <value>Questionário</value>
+  </data>
+  <data name="general_informations" xml:space="preserve">
+    <value>Informações gerais</value>
+  </data>
+  <data name="inactive" xml:space="preserve">
+    <value>Inativo</value>
+  </data>
+  <data name="insert_your_password" xml:space="preserve">
+    <value>Insira sua senha</value>
+  </data>
+  <data name="insert_your_user" xml:space="preserve">
+    <value>Insira seu usuário</value>
+  </data>
+  <data name="institutional_email" xml:space="preserve">
+    <value>E-mail institucional</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="login_informations" xml:space="preserve">
+    <value>Informações sobre acesso</value>
+  </data>
+  <data name="neighborhood" xml:space="preserve">
+    <value>Bairro</value>
+  </data>
+  <data name="number" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="operation_area" xml:space="preserve">
+    <value>Área de atuação</value>
+  </data>
+  <data name="operation_range" xml:space="preserve">
+    <value>Abrangência de atuação</value>
+  </data>
+  <data name="organization" xml:space="preserve">
+    <value>Organização</value>
+  </data>
+  <data name="organization_name" xml:space="preserve">
+    <value>Nome da organização</value>
+  </data>
+  <data name="organization_representative_email" xml:space="preserve">
+    <value>E-mail do representante</value>
+  </data>
+  <data name="organization_representative_name" xml:space="preserve">
+    <value>Nome do representante da organização</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="profile_photo" xml:space="preserve">
+    <value>Foto de perfil</value>
+  </data>
+  <data name="question_approve_that_this_entity_is_accredited" xml:space="preserve">
+    <value>Aprovo que esta entidade é credenciada?</value>
+  </data>
+  <data name="question_this_entity_is_accredited" xml:space="preserve">
+    <value>Está entidade é credenciada?</value>
+  </data>
+  <data name="region" xml:space="preserve">
+    <value>Região</value>
+  </data>
+  <data name="register_type" xml:space="preserve">
+    <value>Tipo de cadastro</value>
+  </data>
+  <data name="select_an_item" xml:space="preserve">
+    <value>Selecione</value>
+  </data>
+  <data name="state" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="transparency_tool" xml:space="preserve">
+    <value>Ferramenta de transparência</value>
+  </data>
+  <data name="website" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="zipcode" xml:space="preserve">
+    <value>Cep</value>
+  </data>
+  <data name="common_users" xml:space="preserve">
+    <value>Usuários comuns</value>
+  </data>
+  <data name="develop_by" xml:space="preserve">
+    <value>Desenvolvido por</value>
+  </data>
+  <data name="entities" xml:space="preserve">
+    <value>Entidades</value>
+  </data>
+  <data name="form_reviews" xml:space="preserve">
+    <value>Avaliação de questionários</value>
+  </data>
+  <data name="managers" xml:space="preserve">
+    <value>Administradores</value>
+  </data>
+  <data name="manage_periods" xml:space="preserve">
+    <value>Gestão de períodos</value>
+  </data>
+  <data name="this_entity_isnt_accredited" xml:space="preserve">
+    <value>Esta entidade não é credenciada</value>
+  </data>
+  <data name="convocation_period" xml:space="preserve">
+    <value>Período de convocação</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="submission_period" xml:space="preserve">
+    <value>Período de submissão</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>até</value>
+  </data>
+  <data name="final_convocation_date" xml:space="preserve">
+    <value>Convocação final</value>
+  </data>
+  <data name="final_submission_date" xml:space="preserve">
+    <value>Submissão final</value>
+  </data>
+  <data name="initial_convocation_date" xml:space="preserve">
+    <value>Convocação inicial</value>
+  </data>
+  <data name="initial_submission_date" xml:space="preserve">
+    <value>Submissão inicial</value>
+  </data>
+  <data name="request_a_city" xml:space="preserve">
+    <value />
+  </data>
+  <data name="responsable_name" xml:space="preserve">
+    <value>Nome do responsável</value>
+  </data>
+  <data name="total_of_collaborators" xml:space="preserve">
+    <value>Total de colaboradores</value>
+  </data>
+  <data name="cities" xml:space="preserve">
+    <value>Municípios</value>
+  </data>
+  <data name="manage_city" xml:space="preserve">
+    <value>Gestão de município</value>
+  </data>
+  <data name="new_city" xml:space="preserve">
+    <value>Novo município</value>
+  </data>
+  <data name="create_a_new_city" xml:space="preserve">
+    <value>Criar um novo município</value>
+  </data>
+  <data name="loading_cities" xml:space="preserve">
+    <value>Carregando os municípios</value>
+  </data>
+  <data name="no_responsable" xml:space="preserve">
+    <value>Sem responsável</value>
+  </data>
+  <data name="no_collaborator" xml:space="preserve">
+    <value>Nenhum colaborador</value>
+  </data>
+  <data name="city_name" xml:space="preserve">
+    <value>Nome do município</value>
+  </data>
+  <data name="add_a_new_collaborator" xml:space="preserve">
+    <value>Novo colaborador</value>
+  </data>
+  <data name="city_informations" xml:space="preserve">
+    <value>Informações do município</value>
+  </data>
+  <data name="requests_pending" xml:space="preserve">
+    <value>Solicitações pendentes</value>
+  </data>
+  <data name="any" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="responsable" xml:space="preserve">
+    <value>Responsável</value>
+  </data>
+  <data name="select_a_collaborator" xml:space="preserve">
+    <value>Selecione um colaborador</value>
+  </data>
+  <data name="any_responsable_selected" xml:space="preserve">
+    <value>Nenhum responsável selecionado</value>
+  </data>
+  <data name="collaborators" xml:space="preserve">
+    <value>Colaboradores</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="entity_name" xml:space="preserve">
+    <value>Nome da entidade</value>
+  </data>
+  <data name="request_date" xml:space="preserve">
+    <value>Data da solicitação</value>
+  </data>
+  <data name="request_status" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="request_type" xml:space="preserve">
+    <value>Tipo de solicitação</value>
+  </data>
+  <data name="collaborator" xml:space="preserve">
+    <value>Colaborador</value>
+  </data>
+  <data name="manage_cities" xml:space="preserve">
+    <value>Gestão de municípios</value>
+  </data>
+  <data name="waiting_approve" xml:space="preserve">
+    <value>Aguardando aprovação</value>
+  </data>
+  <data name="selected_to_published" xml:space="preserve">
+    <value>Selecionado para publicar</value>
+  </data>
+  <data name="request_cities" xml:space="preserve">
+    <value>Solicitação de municípios</value>
+  </data>
+  <data name="request_city" xml:space="preserve">
+    <value>Município solicitado</value>
+  </data>
+  <data name="collaborator_by_cities" xml:space="preserve">
+    <value>Colaborador nas cidades</value>
+  </data>
+  <data name="responsable_by_cities" xml:space="preserve">
+    <value>Responsável pelas cidades</value>
+  </data>
+  <data name="new_entity" xml:space="preserve">
+    <value>Nova entidade</value>
+  </data>
+  <data name="new_admin" xml:space="preserve">
+    <value>Novo administrador</value>
+  </data>
+  <data name="new_common" xml:space="preserve">
+    <value>Novo usuário comum</value>
+  </data>
+</root>

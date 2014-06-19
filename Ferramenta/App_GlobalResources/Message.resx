@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="approved_by" xml:space="preserve">
+    <value>Aprovado por</value>
+  </data>
+  <data name="calculate_tracking" xml:space="preserve">
+    <value>Tracking dos cálculos.</value>
+  </data>
+  <data name="click_here_if_you_want_back_to_the_list" xml:space="preserve">
+    <value>Clique aqui caso queira voltar para lista</value>
+  </data>
+  <data name="couldnt_process_request" xml:space="preserve">
+    <value>Não conseguimos processar seu pedido</value>
+  </data>
+  <data name="email_already_used" xml:space="preserve">
+    <value>E-mail informado está em uso</value>
+  </data>
+  <data name="exists_an_open_period_from_to" xml:space="preserve">
+    <value>Existe um período aberto de &lt;strong&gt;{0:dd/MM/yyyy}&lt;/strong&gt; até &lt;strong&gt;{1:dd/MM/yyyy}&lt;/strong&gt;</value>
+  </data>
+  <data name="format_user_has_been_created_with_success" xml:space="preserve">
+    <value>Usuário '{0}' foi criado com sucesso!, {1}</value>
+  </data>
+  <data name="format_user_has_been_updated_with_success" xml:space="preserve">
+    <value>Usuário '{0}' foi atualizado com sucesso!, {1}</value>
+  </data>
+  <data name="form_copied_with_success" xml:space="preserve">
+    <value>Questionário copiado com sucesso</value>
+  </data>
+  <data name="index" xml:space="preserve">
+    <value>Índice</value>
+  </data>
+  <data name="insert_a_name_for_sub_block" xml:space="preserve">
+    <value>Insira um nome para o sub-bloco</value>
+  </data>
+  <data name="insert_a_question" xml:space="preserve">
+    <value>Insira uma pergunta</value>
+  </data>
+  <data name="insert_a_weight_for_sub_block" xml:space="preserve">
+    <value>Insira um peso para o sub-bloco</value>
+  </data>
+  <data name="insert_your_login_and_password" xml:space="preserve">
+    <value>Entre com o seu usuário e senha</value>
+  </data>
+  <data name="invalid_image_extension" xml:space="preserve">
+    <value>Imagem inválida (Tipos aceitos .bmp, .jpg, .jpeg e .png)</value>
+  </data>
+  <data name="leave_this_box_blank" xml:space="preserve">
+    <value>Deixar em branco caso não queira atualizar</value>
+  </data>
+  <data name="login_already_used" xml:space="preserve">
+    <value>Login informado está em uso</value>
+  </data>
+  <data name="login_password_must_be_filled" xml:space="preserve">
+    <value>Login/Senha precisam ser preenchidos</value>
+  </data>
+  <data name="need_create_period_from" xml:space="preserve">
+    <value>Deve-se criar um período com a data posterior a &lt;strong&gt;{0:dd/MM/yyyy}&lt;/strong&gt;</value>
+  </data>
+  <data name="no_period_has_found" xml:space="preserve">
+    <value>Nenhum período encontrado</value>
+  </data>
+  <data name="observation" xml:space="preserve">
+    <value>Observação</value>
+  </data>
+  <data name="parameter_not_found" xml:space="preserve">
+    <value>Parametro obrigatório não informado</value>
+  </data>
+  <data name="period_id_not_found" xml:space="preserve">
+    <value>Id do período não encontrado</value>
+  </data>
+  <data name="period_not_found" xml:space="preserve">
+    <value>Período não encontrado</value>
+  </data>
+  <data name="problem_to_add_a_question" xml:space="preserve">
+    <value>Problema ao adicionar um pergunta</value>
+  </data>
+  <data name="problem_to_add_a_sub_block" xml:space="preserve">
+    <value>Problema ao adicionar um sub-bloco</value>
+  </data>
+  <data name="problem_to_load_requested_user" xml:space="preserve">
+    <value>Não foi possivel carregar o usuário solicitado</value>
+  </data>
+  <data name="problem_when_copied_form" xml:space="preserve">
+    <value>Problema ao copiar o formulário</value>
+  </data>
+  <data name="problem_when_remove_a_question" xml:space="preserve">
+    <value>Problema ao remover uma pergunta</value>
+  </data>
+  <data name="problem_when_remove_a_sub_block" xml:space="preserve">
+    <value>Problema ao remover um sub-bloco</value>
+  </data>
+  <data name="question" xml:space="preserve">
+    <value>Pergunta</value>
+  </data>
+  <data name="question_added_with_success" xml:space="preserve">
+    <value>Pergunta adicionada com sucesso</value>
+  </data>
+  <data name="question_deleted_with_success" xml:space="preserve">
+    <value>Pergunta removida com sucesso</value>
+  </data>
+  <data name="question_updated_with_success" xml:space="preserve">
+    <value>Pergunta atualizada com sucesso</value>
+  </data>
+  <data name="restrict_page_message" xml:space="preserve">
+    <value>Área restrita, entre em contato com o seu administrador.</value>
+  </data>
+  <data name="score" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="sub_block_added_with_success" xml:space="preserve">
+    <value>Sub-bloco criado com sucesso</value>
+  </data>
+  <data name="sub_block_deleted_with_success" xml:space="preserve">
+    <value>Sub-bloco removido com sucesso</value>
+  </data>
+  <data name="sub_block_updated_with_success" xml:space="preserve">
+    <value>Sub-bloco atualizado com sucesso</value>
+  </data>
+  <data name="this_form_has_been_approved_to_published" xml:space="preserve">
+    <value>Este questionário já foi aprovado para publicação</value>
+  </data>
+  <data name="this_user_not_accepted_the_terms" xml:space="preserve">
+    <value>Este usuário ainda não aceitou os termos de uso</value>
+  </data>
+  <data name="unknow_error" xml:space="preserve">
+    <value>Ops...Desculpa, mas não conseguimos processar sua solicitacão - Erro: {0}</value>
+  </data>
+  <data name="user_not_allowed" xml:space="preserve">
+    <value>Usuário não autorizado</value>
+  </data>
+  <data name="user_type_is_mandatory" xml:space="preserve">
+    <value>Tipo de usuário obrigatório</value>
+  </data>
+  <data name="view_questions" xml:space="preserve">
+    <value>Visualizar questionário</value>
+  </data>
+  <data name="will_be_create_a_new_form" xml:space="preserve">
+    <value>Será criado um novo questionário e todos os blocos e perguntas do questionário serão copiados, deseja continuar? Esse processo é irreversível.</value>
+  </data>
+  <data name="you_already_add_a_review" xml:space="preserve">
+    <value>Você já inseriu uma classificação para este questionário</value>
+  </data>
+  <data name="request_a_city" xml:space="preserve">
+    <value />
+  </data>
+  <data name="problem_to_load_requested_city" xml:space="preserve">
+    <value>Problema ao carregar a cidade requisitada</value>
+  </data>
+  <data name="city_name_is_mandatory" xml:space="preserve">
+    <value>Nome do município é obrigatório</value>
+  </data>
+</root>

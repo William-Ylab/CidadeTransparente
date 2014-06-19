@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="just_master_admin_can_be_create_admin_users" xml:space="preserve">
+    <value>Apenas administradores master podem criar outros usuários administradores</value>
+  </data>
+  <data name="master_admin_creation_not_allowed" xml:space="preserve">
+    <value>Criação de usuários adm. master não permitido</value>
+  </data>
+  <data name="MAX_LENGTH_BASEBLOCK_NAME" xml:space="preserve">
+    <value>Nome do bloco base deve ter no máximo 100 caracteres</value>
+  </data>
+  <data name="MAX_LENGTH_BASEFORM_NAME" xml:space="preserve">
+    <value>Nome do formulário base deve ter no máximo 100 caracteres</value>
+  </data>
+  <data name="MAX_LENGTH_CITY_NAME" xml:space="preserve">
+    <value>Nome da cidade deve ter no máximo 200 caracteres</value>
+  </data>
+  <data name="MAX_LENGTH_ENTITY_NAME" xml:space="preserve">
+    <value>Nome da entidade deve ter no máximo 150 caracteres</value>
+  </data>
+  <data name="MAX_LENGTH_PERIOD_NAME" xml:space="preserve">
+    <value>Nome do período deve ter no máximo 50 caracteres</value>
+  </data>
+  <data name="MAX_LENGTH_STATE_NAME" xml:space="preserve">
+    <value>Nome do estado deve ter no máximo 50 caracteres</value>
+  </data>
+  <data name="MAX_LENGTH_USER_EMAIL" xml:space="preserve">
+    <value>Email do usuário deve ter no máximo 50 caracteres</value>
+  </data>
+  <data name="MAX_LENGTH_USER_LOGIN" xml:space="preserve">
+    <value>Login do usuário deve ter no máximo 20 caracteres</value>
+  </data>
+  <data name="MAX_LENGTH_USER_NAME" xml:space="preserve">
+    <value>Nome do usuário deve ter no máximo 50 caracteres</value>
+  </data>
+  <data name="MAX_LENGTH_USER_PASSWORD" xml:space="preserve">
+    <value>Login do usuário deve ter no máximo 256 caracteres</value>
+  </data>
+  <data name="REQUIRED_ANSWERS_OBSERVATION" xml:space="preserve">
+    <value>Observação da resposta é obrigatório</value>
+  </data>
+  <data name="REQUIRED_BASEBLOCK_NAME" xml:space="preserve">
+    <value>Nome do bloco base é obrigatório</value>
+  </data>
+  <data name="REQUIRED_BASEFORM_NAME" xml:space="preserve">
+    <value>Nome do formulário base é obrigatório</value>
+  </data>
+  <data name="REQUIRED_BASEQUESTION_QUESTION" xml:space="preserve">
+    <value>Questão da pergunta base é obrigatória</value>
+  </data>
+  <data name="REQUIRED_CITY_NAME" xml:space="preserve">
+    <value>Nome da cidade é obrigatório</value>
+  </data>
+  <data name="REQUIRED_ENTITY_NAME" xml:space="preserve">
+    <value>Nome da entidade é obrigatório</value>
+  </data>
+  <data name="REQUIRED_PERIOD_NAME" xml:space="preserve">
+    <value>Nome do período é obrigatório</value>
+  </data>
+  <data name="REQUIRED_STATE_NAME" xml:space="preserve">
+    <value>Nome do estado é obrigatório</value>
+  </data>
+  <data name="REQUIRED_SUBMIT_OBSERVATION" xml:space="preserve">
+    <value>Observações do envio é obrigatório</value>
+  </data>
+  <data name="REQUIRED_USER_EMAIL" xml:space="preserve">
+    <value>Email do usuário é obrigatório</value>
+  </data>
+  <data name="REQUIRED_USER_LOGIN" xml:space="preserve">
+    <value>Login do usuário é obrigatório</value>
+  </data>
+  <data name="REQUIRED_USER_NAME" xml:space="preserve">
+    <value>Nome do usuário é obrigatório</value>
+  </data>
+  <data name="REQUIRED_USER_PASSWORD" xml:space="preserve">
+    <value>Login do usuário é obrigatório</value>
+  </data>
+  <data name="entity_users_update_or_create_not_allowed_by" xml:space="preserve">
+    <value>Criação ou atualização de usuários entidades não é permitida por usuários do tipo {0}  (Apenas por Adm. e Adm. Master)</value>
+  </data>
+  <data name="other_users_creation_not_allowed_by" xml:space="preserve">
+    <value>Criação de usuários comuns não é permitida por usuários do tipo {0} (Apenas por Site,  Adm. e Adm. Master)</value>
+  </data>
+  <data name="other_users_update_not_allowed_by" xml:space="preserve">
+    <value>Atualização de usuários comuns não é permitida por usuários do tipo {0} (Apenas por Adm. e Adm. Master)</value>
+  </data>
+  <data name="ENUM_USERTYPE_ADMIN" xml:space="preserve">
+    <value>Administrador</value>
+  </data>
+  <data name="ENUM_USERTYPE_COMMON" xml:space="preserve">
+    <value>Usuário comum</value>
+  </data>
+  <data name="ENUM_USERTYPE_ENTITY" xml:space="preserve">
+    <value>Entidade</value>
+  </data>
+  <data name="ENUM_USERTYPE_MASTER" xml:space="preserve">
+    <value>Administrador Master</value>
+  </data>
+  <data name="ENUM_USERTYPE_SITE" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="ENUM_SUBMITTYPE_APPROVED" xml:space="preserve">
+    <value>Aprovado para publicação</value>
+  </data>
+  <data name="ENUM_SUBMITTYPE_REPROVED" xml:space="preserve">
+    <value>Reprovado e aguardando revisão</value>
+  </data>
+  <data name="ENUM_SUBMITTYPE_SUBMITTED" xml:space="preserve">
+    <value>Submetido</value>
+  </data>
+  <data name="PERIOD_INITIAL_DATE_MORETHAN_FINAL_DATE" xml:space="preserve">
+    <value>A data inicial de submissão não pode ser maior que a data final</value>
+  </data>
+  <data name="PERIOD_HAS_ANOTHER_OPEN" xml:space="preserve">
+    <value>Já existe um período em aberto</value>
+  </data>
+  <data name="PERIOD_INVALID_INITIAL_DATE" xml:space="preserve">
+    <value>Já existe um período cadastrado com a data final de submissão maior que a data inicial informada</value>
+  </data>
+  <data name="PERIOD_WITH_CONCURRENCE_DATES" xml:space="preserve">
+    <value>Data do período está dentro de outro período existente</value>
+  </data>
+  <data name="ENUM_USERTYPE_ENTITY_NETWORK" xml:space="preserve">
+    <value>Entidade credenciada</value>
+  </data>
+  <data name="PERIOD_CONVOCATION_INITIAL_DATE_MORETHAN_FINAL_DATE" xml:space="preserve">
+    <value>A data inicial de convocação não pode ser maior que a data final</value>
+  </data>
+  <data name="PERIOD_CONVOCATION_MUST_BEFORE_SUBMISSION" xml:space="preserve">
+    <value>Período de convocação deve vir antes do período de submissão</value>
+  </data>
+  <data name="APPROVED" xml:space="preserve">
+    <value>Aprovado</value>
+  </data>
+  <data name="WAITING_APPROVE" xml:space="preserve">
+    <value>Aguardando aprovação</value>
+  </data>
+  <data name="city_already_requested" xml:space="preserve">
+    <value>Município já foi solicitado</value>
+  </data>
+  <data name="invalid_user" xml:space="preserve">
+    <value>Usuário inválido</value>
+  </data>
+  <data name="request_city_not_allowed" xml:space="preserve">
+    <value>Solicitação de municípios não permitida</value>
+  </data>
+</root>

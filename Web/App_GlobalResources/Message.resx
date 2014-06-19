@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="answer_name" xml:space="preserve">
+    <value>Responda o questionário</value>
+  </data>
+  <data name="answer_value" xml:space="preserve">
+    <value>Responda o questionário</value>
+  </data>
+  <data name="calculate_tracking" xml:space="preserve">
+    <value>Tracking dos cálculos.</value>
+  </data>
+  <data name="city_name" xml:space="preserve">
+    <value>Selecione o estado e a cidade</value>
+  </data>
+  <data name="city_state_form" xml:space="preserve">
+    <value>Estado/cidade do formulário</value>
+  </data>
+  <data name="city_value" xml:space="preserve">
+    <value>Selecione o estado e a cidade responsável pelo questionário.</value>
+  </data>
+  <data name="click_here" xml:space="preserve">
+    <value>clicando aqui</value>
+  </data>
+  <data name="entities" xml:space="preserve">
+    <value>Entidades</value>
+  </data>
+  <data name="entity_name" xml:space="preserve">
+    <value>Selecione a entidade</value>
+  </data>
+  <data name="entity_value" xml:space="preserve">
+    <value>Selecione a entidade responsável pelo questionário.</value>
+  </data>
+  <data name="export_form" xml:space="preserve">
+    <value>Exportar questionário</value>
+  </data>
+  <data name="export_name" xml:space="preserve">
+    <value>Exporte o questionário</value>
+  </data>
+  <data name="export_value" xml:space="preserve">
+    <value>Exporte o questionário</value>
+  </data>
+  <data name="file_name" xml:space="preserve">
+    <value>Selecione o arquivo respondido</value>
+  </data>
+  <data name="file_value" xml:space="preserve">
+    <value>Selecione o arquivo que você respondeu.</value>
+  </data>
+  <data name="import_form" xml:space="preserve">
+    <value>Importar questionário</value>
+  </data>
+  <data name="index" xml:space="preserve">
+    <value>Índice</value>
+  </data>
+  <data name="no_row_forms" xml:space="preserve">
+    <value>Ainda não possuí questionários enviados</value>
+  </data>
+  <data name="observation" xml:space="preserve">
+    <value>Observação</value>
+  </data>
+  <data name="parameter_not_found" xml:space="preserve">
+    <value>Parametro obrigatório não informado</value>
+  </data>
+  <data name="question" xml:space="preserve">
+    <value>Pergunta</value>
+  </data>
+  <data name="restrict_page_message" xml:space="preserve">
+    <value>Área restrita, entre em contato com o seu administrador.</value>
+  </data>
+  <data name="score" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="sent_questions" xml:space="preserve">
+    <value>Questionários já enviados</value>
+  </data>
+  <data name="submit_name" xml:space="preserve">
+    <value>Submeta o questionário</value>
+  </data>
+  <data name="submit_name_entity" xml:space="preserve">
+    <value>Submeta o questionário para avaliação</value>
+  </data>
+  <data name="submit_value" xml:space="preserve">
+    <value>Submeta o questionário</value>
+  </data>
+  <data name="submit_value_entity" xml:space="preserve">
+    <value />
+  </data>
+  <data name="title_expimpform" xml:space="preserve">
+    <value>Passos para submeter um questionário.</value>
+  </data>
+  <data name="view_questions" xml:space="preserve">
+    <value>Visualizar questionário</value>
+  </data>
+  <data name="no_question" xml:space="preserve">
+    <value>Não existe nenhum questionário disponível para download</value>
+  </data>
+  <data name="city_not_selected" xml:space="preserve">
+    <value>Município não informado</value>
+  </data>
+  <data name="city_not_selected_to_available" xml:space="preserve">
+    <value>Por favor, informe a cidade avaliada</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="agree_terms" xml:space="preserve">
+    <value>Você precisa aceitar os termos de uso</value>
+  </data>
+  <data name="agree_with_terms" xml:space="preserve">
+    <value>Estou de acordo com os termos de uso</value>
+  </data>
+  <data name="city" xml:space="preserve">
+    <value>Município</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="common" xml:space="preserve">
+    <value>Comum</value>
+  </data>
+  <data name="confirm_password" xml:space="preserve">
+    <value>Confirmar senha</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="entity" xml:space="preserve">
+    <value>Entidade</value>
+  </data>
+  <data name="exists_email" xml:space="preserve">
+    <value>E-mail já existe</value>
+  </data>
+  <data name="exists_login" xml:space="preserve">
+    <value>Nome de usuário já existe</value>
+  </data>
+  <data name="iam_accredited_entity" xml:space="preserve">
+    <value>Sou uma organização credenciada</value>
+  </data>
+  <data name="input_your_cnpj" xml:space="preserve">
+    <value>Digite seu CNPJ</value>
+  </data>
+  <data name="input_your_email" xml:space="preserve">
+    <value>Digite seu e-mail</value>
+  </data>
+  <data name="input_your_password" xml:space="preserve">
+    <value>Digite sua senha</value>
+  </data>
+  <data name="insert_session" xml:space="preserve">
+    <value>Iniciar sessão</value>
+  </data>
+  <data name="invalid_image_extension" xml:space="preserve">
+    <value>Imagem inválida (Tipos aceitos .bmp, .jpg, .jpeg e .png)</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="nature" xml:space="preserve">
+    <value>Natureza</value>
+  </data>
+  <data name="neighborhood" xml:space="preserve">
+    <value>Bairro</value>
+  </data>
+  <data name="number" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="operation_area" xml:space="preserve">
+    <value>Área de atuação</value>
+  </data>
+  <data name="operation_range" xml:space="preserve">
+    <value>Abrangência de atuação</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="photo" xml:space="preserve">
+    <value>Foto</value>
+  </data>
+  <data name="problem_to_send_your_passoword" xml:space="preserve">
+    <value>Houve um erro ao tentar reenviar sua senha, por favor entre em contato com o administrador.</value>
+  </data>
+  <data name="recover_password" xml:space="preserve">
+    <value>Recuperar senha</value>
+  </data>
+  <data name="region" xml:space="preserve">
+    <value>Região</value>
+  </data>
+  <data name="register" xml:space="preserve">
+    <value>Cadastrar</value>
+  </data>
+  <data name="state" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="terms_of_use" xml:space="preserve">
+    <value>Termos de uso</value>
+  </data>
+  <data name="user" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="user_type" xml:space="preserve">
+    <value>Tipo de usuário</value>
+  </data>
+  <data name="website" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="we_sent_an_email_with_you_password_and_login" xml:space="preserve">
+    <value>Foi enviado um email com seu usuário e senha.</value>
+  </data>
+  <data name="zipcode" xml:space="preserve">
+    <value>Cep</value>
+  </data>
+  <data name="accept" xml:space="preserve">
+    <value>Aceito</value>
+  </data>
+  <data name="add_observations" xml:space="preserve">
+    <value>Adicionar observações</value>
+  </data>
+  <data name="answer" xml:space="preserve">
+    <value>Responder</value>
+  </data>
+  <data name="answer_form" xml:space="preserve">
+    <value>Questionário respondidos</value>
+  </data>
+  <data name="answer_form_and_compare" xml:space="preserve">
+    <value>Preencha o questionário e compare com o Ranking atual</value>
+  </data>
+  <data name="are_you_sure_submit_form" xml:space="preserve">
+    <value>Você tem certeza que deseja submeter esse questionário?</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="cities" xml:space="preserve">
+    <value>Municípios</value>
+  </data>
+  <data name="click_here2" xml:space="preserve">
+    <value>Clique aqui</value>
+  </data>
+  <data name="click_here_and_form" xml:space="preserve">
+    <value>Clique aqui para responder o questionário</value>
+  </data>
+  <data name="complete_forms" xml:space="preserve">
+    <value>Completos</value>
+  </data>
+  <data name="congratulations_form_was_finished" xml:space="preserve">
+    <value>Parabéns você concluiu o preenchimento do questionário</value>
+  </data>
+  <data name="congratulations_your_form_has_been_filled" xml:space="preserve">
+    <value>Parabéns!! Seu questionário está corretamente preenchido e aprovado</value>
+  </data>
+  <data name="congratulations_your_form_has_been_filled_and_submited" xml:space="preserve">
+    <value>Parabéns!! Seu questionário está corretamente preenchido e foi submetido para aprovação</value>
+  </data>
+  <data name="entity_name_" xml:space="preserve">
+    <value>Nome da entidade</value>
+  </data>
+  <data name="fill_form_and_compare" xml:space="preserve">
+    <value>Preencha o questionário e compare com o Ranking atual</value>
+  </data>
+  <data name="filter" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="form" xml:space="preserve">
+    <value>Questionário</value>
+  </data>
+  <data name="form_name" xml:space="preserve">
+    <value>Nome do questionário</value>
+  </data>
+  <data name="from_0_to_20" xml:space="preserve">
+    <value>de 0 até 20%</value>
+  </data>
+  <data name="from_20_to_40" xml:space="preserve">
+    <value>de 20 até 40%</value>
+  </data>
+  <data name="from_40_to_60" xml:space="preserve">
+    <value>de 40 até 60%</value>
+  </data>
+  <data name="from_60_to_80" xml:space="preserve">
+    <value>de 60 até 80%</value>
+  </data>
+  <data name="from_80_to_100" xml:space="preserve">
+    <value>de 80 até 100%</value>
+  </data>
+  <data name="from_NA_to_NA" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="how_to_prefer_fill_the_form" xml:space="preserve">
+    <value>Como você prefere preencher o questionário?</value>
+  </data>
+  <data name="incomplete_forms" xml:space="preserve">
+    <value>Incompletos</value>
+  </data>
+  <data name="legend" xml:space="preserve">
+    <value>Legenda: </value>
+  </data>
+  <data name="loading_forms" xml:space="preserve">
+    <value>Carregando questionários...</value>
+  </data>
+  <data name="name_of_city" xml:space="preserve">
+    <value>Nome da cidade</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Prosseguir</value>
+  </data>
+  <data name="no_response" xml:space="preserve">
+    <value>Sem resposta</value>
+  </data>
+  <data name="offline_mode" xml:space="preserve">
+    <value>Modo offline</value>
+  </data>
+  <data name="offline_mode_message" xml:space="preserve">
+    <value>Caso queira preecher o questionário offline ou importar um questionário já preenchido, clique abaixo para prosseguir com o preenchimento.</value>
+  </data>
+  <data name="online_mode" xml:space="preserve">
+    <value>Modo online</value>
+  </data>
+  <data name="online_mode_message" xml:space="preserve">
+    <value>Caso queira preecher o questionário online ou continuar o preenchimento de onde parou, selecione abaixo o município e prossiga com o preenchimento.</value>
+  </data>
+  <data name="period" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="periods" xml:space="preserve">
+    <value>Períodos</value>
+  </data>
+  <data name="period_open_to_avail" xml:space="preserve">
+    <value>Período aberto para avaliação</value>
+  </data>
+  <data name="pointing" xml:space="preserve">
+    <value>Pontuação</value>
+  </data>
+  <data name="select_a_city" xml:space="preserve">
+    <value>Selecione a cidade avaliada</value>
+  </data>
+  <data name="sorry_page_not_found" xml:space="preserve">
+    <value>Desculpe, mas não encontramos a página solicitada.</value>
+  </data>
+  <data name="submit" xml:space="preserve">
+    <value>Submetido</value>
+  </data>
+  <data name="submit_a_form" xml:space="preserve">
+    <value>Submeter questionário para avaliação</value>
+  </data>
+  <data name="submit_status" xml:space="preserve">
+    <value>Status da submissão</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="total_questions_answered" xml:space="preserve">
+    <value>Total de perguntas respondidas</value>
+  </data>
+  <data name="wait" xml:space="preserve">
+    <value>Aguarde...</value>
+  </data>
+  <data name="you_are_answer_following_form" xml:space="preserve">
+    <value>Você está prestes a responder o seguinte questionário:</value>
+  </data>
+  <data name="cnpj" xml:space="preserve">
+    <value>Cnpj</value>
+  </data>
+  <data name="representant_email" xml:space="preserve">
+    <value>E-mail do representante da organização</value>
+  </data>
+  <data name="representant_name" xml:space="preserve">
+    <value>Nome do representante da organização</value>
+  </data>
+  <data name="accept_terms" xml:space="preserve">
+    <value>Aceito os termos de uso</value>
+  </data>
+  <data name="edit_profile" xml:space="preserve">
+    <value>Editar perfil</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="logout" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="my_forms" xml:space="preserve">
+    <value>Meus questionários</value>
+  </data>
+  <data name="result" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="start_session" xml:space="preserve">
+    <value>Iniciar sessão</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Atenção</value>
+  </data>
+  <data name="you_need_accept_terms" xml:space="preserve">
+    <value>Você deve aceitar os termos e condições antes de realizar qualquer operação no site!</value>
+  </data>
+  <data name="select_an_item" xml:space="preserve">
+    <value>Selecione</value>
+  </data>
+  <data name="request_cities" xml:space="preserve">
+    <value>Solicitações de cidades</value>
+  </data>
+  <data name="requested_cityname" xml:space="preserve">
+    <value>Cidade solicitada</value>
+  </data>
+  <data name="request_status" xml:space="preserve">
+    <value>Status da solicitação</value>
+  </data>
+  <data name="requesteds_cityname" xml:space="preserve">
+    <value>Cidades solicitadas</value>
+  </data>
+  <data name="dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="request_city" xml:space="preserve">
+    <value>Solicitar um município para avaliar</value>
+  </data>
+  <data name="do_request_city" xml:space="preserve">
+    <value>Solicitar município</value>
+  </data>
+  <data name="I_will_be_the_collaborator" xml:space="preserve">
+    <value>Desejo ser &lt;strong&gt;colaborador&lt;/strong&gt; deste município</value>
+  </data>
+  <data name="I_will_be_the_responsable" xml:space="preserve">
+    <value>Desejo ser &lt;strong&gt;responsável&lt;/strong&gt; deste município</value>
+  </data>
+  <data name="request_type" xml:space="preserve">
+    <value>Tipo de solicitação</value>
+  </data>
+  <data name="select_a_state" xml:space="preserve">
+    <value>Selecione um estado</value>
+  </data>
+  <data name="select_a_city1" xml:space="preserve">
+    <value>Selecione um cidade</value>
+  </data>
+  <data name="collaborators" xml:space="preserve">
+    <value>Colaboradores</value>
+  </data>
+  <data name="responsable" xml:space="preserve">
+    <value>Responsável</value>
+  </data>
+  <data name="request_cities_may_be_until" xml:space="preserve">
+    <value>A Solicitação de município poderá ser feita até o dia {0:dd/MM/yyyy}</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="general_informations" xml:space="preserve">
+    <value>Informações gerais</value>
+  </data>
+  <data name="access_information" xml:space="preserve">
+    <value>Informações sobre acesso</value>
+  </data>
+  <data name="address_information" xml:space="preserve">
+    <value>Informações sobre o endereço</value>
+  </data>
+  <data name="contact_information" xml:space="preserve">
+    <value>Informações de contato</value>
+  </data>
+  <data name="organization_information" xml:space="preserve">
+    <value>Informações da organização</value>
+  </data>
+  <data name="term_of_use" xml:space="preserve">
+    <value>Termos de uso</value>
+  </data>
+  <data name="iam_an_entity_user" xml:space="preserve">
+    <value>Sou uma entidade</value>
+  </data>
+  <data name="iam_a_common_user" xml:space="preserve">
+    <value>Sou um usuário comum</value>
+  </data>
+  <data name="answer_question" xml:space="preserve">
+    <value>Responder questionário</value>
+  </data>
+  <data name="answer_offline" xml:space="preserve">
+    <value>Preencher offline</value>
+  </data>
+  <data name="answer_online" xml:space="preserve">
+    <value>Preencher online</value>
+  </data>
+  <data name="see_form_details" xml:space="preserve">
+    <value>Ver detalhes do questionário</value>
+  </data>
+  <data name="about_us" xml:space="preserve">
+    <value>Quem somos</value>
+  </data>
+  <data name="best_pratices" xml:space="preserve">
+    <value>Boas práticas</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>Contato</value>
+  </data>
+  <data name="how_to_participate" xml:space="preserve">
+    <value>Como participar</value>
+  </data>
+  <data name="methodology" xml:space="preserve">
+    <value>Metodologia</value>
+  </data>
+  <data name="form_will_be_published" xml:space="preserve">
+    <value>Este questionário será publicado</value>
+  </data>
+  <data name="selected_to_published" xml:space="preserve">
+    <value>Selecionado para publicar</value>
+  </data>
+  <data name="form_must_revised" xml:space="preserve">
+    <value>Seu questionário não foi aprovado, por favor revise e submeta novamente.</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="there_are_not_approved_forms" xml:space="preserve">
+    <value>Existem questionários &lt;strong&gt;reprovados&lt;/strong&gt;. Por favor, revise o questionário selecionando a cidade reprovada.</value>
+  </data>
+  <data name="good_praticies" xml:space="preserve">
+    <value>Boas Práticas</value>
+  </data>
+  <data name="input_your_user" xml:space="preserve">
+    <value>Digite seu usuário</value>
+  </data>
+</root>

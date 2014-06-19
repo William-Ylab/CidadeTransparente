@@ -1,0 +1,11 @@
+LEIA-ME
+
+IDE utilizada para o desenvolvimento do projeto: Visual Studio 2012
+Banco de dados: MySQL
+Versão do Framework utilizado: .NET 4.0
+
+Na pasta "Database" estão os arquivos para a criação do banco e inserção de dados necessários para o funcionamento da solução.
+Os arquivos devem ser executados na seguinte ordem:
+	1. Estrutura BD
+	2. StatesCities
+	3. MainUsers

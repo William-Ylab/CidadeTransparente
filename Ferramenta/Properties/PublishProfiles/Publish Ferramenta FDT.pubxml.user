@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Pivetz\Desktop\Deploy\Amarribo\Ferramenta</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Admin.Master">
+      <publishTime>03/14/2014 09:11:04</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Label.resx">
+      <publishTime>01/09/2014 10:00:59</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Message.resx">
+      <publishTime>01/03/2014 16:52:04</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>01/14/2014 09:56:31</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>03/14/2014 10:09:12</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>03/14/2014 10:09:12</publishTime>
+    </File>
+    <File Include="bin/App_GlobalResources.compiled">
+      <publishTime>03/14/2014 10:09:12</publishTime>
+    </File>
+    <File Include="bin/App_GlobalResources.dll">
+      <publishTime>03/14/2014 10:09:12</publishTime>
+    </File>
+    <File Include="bin/BundleTransformer.Core.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/BundleTransformer.Yui.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/Commons.dll">
+      <publishTime>01/14/2014 10:37:31</publishTime>
+    </File>
+    <File Include="bin/EcmaScript.NET.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>01/14/2014 09:56:33</publishTime>
+    </File>
+    <File Include="bin/Ferramenta.dll">
+      <publishTime>03/14/2014 10:09:10</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>01/14/2014 09:56:31</publishTime>
+    </File>
+    <File Include="bin/K2Logger.dll">
+      <publishTime>01/14/2014 10:38:44</publishTime>
+    </File>
+    <File Include="bin/Lib.dll">
+      <publishTime>03/14/2014 09:22:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/14/2014 09:56:35</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>09/23/2011 19:24:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>12/14/2013 23:56:44</publishTime>
+    </File>
+    <File Include="bin/NPOI.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/NPOI.OOXML.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXml4Net.dll">
+      <publishTime>01/14/2014 09:56:31</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXmlFormats.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/ru-ru/BundleTransformer.Core.resources.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/ru-ru/BundleTransformer.Yui.resources.dll">
+      <publishTime>01/14/2014 09:56:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>01/14/2014 09:56:34</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>12/14/2013 23:56:43</publishTime>
+    </File>
+    <File Include="bin/Yahoo.Yui.Compressor.dll">
+      <publishTime>01/14/2014 09:56:38</publishTime>
+    </File>
+    <File Include="City/ManageCities.aspx">
+      <publishTime>03/14/2014 09:11:04</publishTime>
+    </File>
+    <File Include="City/NewCity.aspx">
+      <publishTime>03/14/2014 09:11:04</publishTime>
+    </File>
+    <File Include="Dashboard.aspx">
+      <publishTime>01/14/2014 09:56:25</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>01/03/2014 16:52:03</publishTime>
+    </File>
+    <File Include="Design/Images/Datatables/sort_asc.png">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="Design/Images/Datatables/sort_asc_disabled.png">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="Design/Images/Datatables/sort_both.png">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="Design/Images/Datatables/sort_desc.png">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="Design/Images/Datatables/sort_desc_disabled.png">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="Design/Images/loading.gif">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="Design/Images/logo-amarribo.png">
+      <publishTime>01/23/2014 09:20:30</publishTime>
+    </File>
+    <File Include="Design/Images/Markitup/bold.png">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="Design/Images/Markitup/italic.png">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="Design/Images/Markitup/underline.png">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="Design/Images/noavatar.png">
+      <publishTime>01/23/2014 09:20:29</publishTime>
+    </File>
+    <File Include="Design/Images/Uniform/bg-input-focus.png">
+      <publishTime>01/23/2014 09:20:29</publishTime>
+    </File>
+    <File Include="Design/Images/Uniform/bg-input.png">
+      <publishTime>01/23/2014 09:20:29</publishTime>
+    </File>
+    <File Include="Design/Images/Uniform/sprite.png">
+      <publishTime>01/23/2014 09:20:30</publishTime>
+    </File>
+    <File Include="Design/Styles/bootstrap-tagsinput.css">
+      <publishTime>03/14/2014 09:11:04</publishTime>
+    </File>
+    <File Include="Design/Styles/Bootstrap/bootstrap-responsive.css">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Design/Styles/Bootstrap/bootstrap.css">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Design/Styles/Bootstrap/proggress.css">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Design/Styles/Bootstrap/uniform.default.css">
+      <publishTime>01/23/2014 09:20:29</publishTime>
+    </File>
+    <File Include="Design/Styles/Calendar/fullcalendar.css">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Design/Styles/Datatables/DT_bootstrap.css">
+      <publishTime>01/23/2014 09:20:29</publishTime>
+    </File>
+    <File Include="Design/Styles/Datatables/responsive-tables.css">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Design/Styles/DatePicker/datepicker.css">
+      <publishTime>01/23/2014 09:20:30</publishTime>
+    </File>
+    <File Include="Design/Styles/DatePicker/daterangepicker.css">
+      <publishTime>01/23/2014 09:20:30</publishTime>
+    </File>
+    <File Include="Design/Styles/font-awesome.css">
+      <publishTime>01/07/2014 09:01:56</publishTime>
+    </File>
+    <File Include="Design/Styles/jquery-hint.css">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="Design/Styles/jquery-toggle-buttons.css">
+      <publishTime>01/23/2014 09:20:29</publishTime>
+    </File>
+    <File Include="Design/Styles/login.css">
+      <publishTime>01/23/2014 09:20:29</publishTime>
+    </File>
+    <File Include="Design/Styles/style.css">
+      <publishTime>01/23/2014 09:20:29</publishTime>
+    </File>
+    <File Include="Design/Styles/style_6in1.css">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="Design/Styles/TEditor/jquery-te.png">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Design/Styles/TEditor/style.css">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Design/Styles/Validate/validationEngine.jquery.css">
+      <publishTime>01/23/2014 09:20:30</publishTime>
+    </File>
+    <File Include="Design/Styles/yl-modal.css">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Form/ListResponseForm.aspx">
+      <publishTime>03/14/2014 09:11:04</publishTime>
+    </File>
+    <File Include="Form/ManageBaseForm.aspx">
+      <publishTime>02/27/2014 21:55:30</publishTime>
+    </File>
+    <File Include="Form/NewBaseForm.aspx">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Form/View.aspx">
+      <publishTime>02/27/2014 21:55:30</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/03/2014 16:52:03</publishTime>
+    </File>
+    <File Include="Handlers/BaseForm/Action.ashx">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Handlers/GroupCities/ApproveRequest.ashx">
+      <publishTime>03/14/2014 09:11:04</publishTime>
+    </File>
+    <File Include="Handlers/GroupCities/GetAll.ashx">
+      <publishTime>03/14/2014 09:11:04</publishTime>
+    </File>
+    <File Include="Handlers/GroupCities/GetRequests.ashx">
+      <publishTime>03/14/2014 09:11:04</publishTime>
+    </File>
+    <File Include="Handlers/Period/Action.ashx">
+      <publishTime>02/06/2014 08:27:01</publishTime>
+    </File>
+    <File Include="Handlers/Period/GetAll.ashx">
+      <publishTime>01/23/2014 09:20:30</publishTime>
+    </File>
+    <File Include="Handlers/ResponseForm/Action.ashx">
+      <publishTime>01/23/2014 09:20:30</publishTime>
+    </File>
+    <File Include="Handlers/ResponseForm/GetAll.ashx">
+      <publishTime>01/23/2014 09:20:30</publishTime>
+    </File>
+    <File Include="Handlers/User/GetAll.ashx">
+      <publishTime>01/23/2014 09:20:30</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>02/27/2014 21:55:28</publishTime>
+    </File>
+    <File Include="Logout.aspx">
+      <publishTime>02/27/2014 21:55:28</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="PageError.aspx">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="PageForbidden.aspx">
+      <publishTime>01/23/2014 09:20:29</publishTime>
+    </File>
+    <File Include="PageNotFound.aspx">
+      <publishTime>01/14/2014 09:56:26</publishTime>
+    </File>
+    <File Include="Period/List.aspx">
+      <publishTime>03/14/2014 09:11:05</publishTime>
+    </File>
+    <File Include="Period/NewPeriod.aspx">
+      <publishTime>03/14/2014 09:11:05</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>03/14/2014 10:09:10</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-tagsinput.js">
+      <publishTime>03/14/2014 09:11:05</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/bootstrap-inputmask.js">
+      <publishTime>01/23/2014 09:20:31</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/bootstrap.js">
+      <publishTime>02/06/2014 15:54:44</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/main.js">
+      <publishTime>01/23/2014 09:20:31</publishTime>
+    </File>
+    <File Include="Scripts/Calendar/fullcalendar.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Datatables/DT_bootstrap.js">
+      <publishTime>01/23/2014 09:20:31</publishTime>
+    </File>
+    <File Include="Scripts/Datatables/jquery.dataTables.js">
+      <publishTime>02/27/2014 21:55:30</publishTime>
+    </File>
+    <File Include="Scripts/Datatables/jquery.tablesorter.min.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Datatables/responsive-tables.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/DatePicker/jquery-datepicker.js">
+      <publishTime>02/06/2014 08:27:02</publishTime>
+    </File>
+    <File Include="Scripts/Flot/excanvas.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/excanvas.min.js">
+      <publishTime>01/06/2014 15:29:19</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.colorhelpers.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.easy-pie-chart.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.easy-pie-chart.min.js">
+      <publishTime>01/07/2014 10:33:05</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.flot.crosshair.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.flot.fillbetween.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.flot.image.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.flot.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.flot.navigate.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.flot.pie.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.flot.resize.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.flot.selection.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.flot.stack.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.flot.symbol.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.flot.threshold.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/Flot/jquery.sparkline.min.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-hint.js">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-jeditable.js">
+      <publishTime>01/03/2014 16:52:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-json-2.4.js">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-meiomask.js">
+      <publishTime>02/06/2014 13:24:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery-migrate-1.1.1.min.js">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-sortable.js">
+      <publishTime>01/03/2014 16:52:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-tmpl.js">
+      <publishTime>01/14/2014 09:56:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui.js">
+      <publishTime>01/23/2014 09:20:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.cookie.js">
+      <publishTime>03/14/2014 09:11:05</publishTime>
+    </File>
+    <File Include="Scripts/jquery.toggle.buttons.js">
+      <publishTime>01/23/2014 09:20:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.uniform.js">
+      <publishTime>01/23/2014 09:20:31</publishTime>
+    </File>
+    <File Include="Scripts/main.js">
+      <publishTime>03/14/2014 09:11:05</publishTime>
+    </File>
+    <File Include="Scripts/Markitup/jquery.markitup.js">
+      <publishTime>01/14/2014 09:56:29</publishTime>
+    </File>
+    <File Include="Scripts/Markitup/settings.js">
+      <publishTime>01/14/2014 09:56:29</publishTime>
+    </File>
+    <File Include="Scripts/TEditor/jquery-te-1.4.0.js">
+      <publishTime>01/14/2014 09:56:29</publishTime>
+    </File>
+    <File Include="Scripts/Validate/jquery.validate.js">
+      <publishTime>01/23/2014 09:20:31</publishTime>
+    </File>
+    <File Include="Scripts/Validate/jquery.validationEngine-pt_BR.js">
+      <publishTime>01/23/2014 09:20:31</publishTime>
+    </File>
+    <File Include="Scripts/Validate/jquery.validationEngine.js">
+      <publishTime>01/23/2014 09:20:31</publishTime>
+    </File>
+    <File Include="Scripts/yl-editable.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="Scripts/yl-modal.js">
+      <publishTime>01/14/2014 09:56:28</publishTime>
+    </File>
+    <File Include="User/ManageUsers.aspx">
+      <publishTime>03/14/2014 09:11:05</publishTime>
+    </File>
+    <File Include="User/NewUser.aspx">
+      <publishTime>03/14/2014 09:11:05</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/14/2014 10:09:10</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
